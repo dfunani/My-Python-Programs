@@ -1,0 +1,7 @@
+random
+sys
+pyinputplus as pyip
+re
+argparse
+cowsay
+pyttsx3
