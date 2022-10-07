@@ -1,117 +1,162 @@
+from turtle import pos
 from kivy.app import App
 from kivy.uix.widget import Widget
+from kivy.uix.button import Button
+from kivy.uix.label import Label
 from kivy.uix.gridlayout import GridLayout
 from kivy.uix.floatlayout import FloatLayout
-from kivy.uix.label import Label
-from kivy.graphics import Color, Ellipse, Translate
-import pyinputplus as py
-from kivy.properties import (
-    NumericProperty, ObjectProperty,StringProperty
-)
-
+from kivy.uix.textinput import TextInput
+from kivy.uix.dropdown import DropDown
 from kivy.clock import Clock
+from kivy.graphics import Rectangle, Color, Canvas
 
-# kivy3
-from kivy3 import Renderer, Scene
-from kivy3 import PerspectiveCamera
-
-# geometry
-from kivy3.extras.geometries import BoxGeometry
-from kivy3 import Material, Mesh
-
-""" get1Input = input('Player1 Name: ')
-get2Input = input('Player2 Name: ')  """
-get1Input = "Delali"
-get2Input = "Funani"
+import random
 
 COLORS = {
-	'Red': (255,0,0,1),
- 'Blue': (0,0,255,1),
- 'Green': (0,255,0,1),
- 'White': (255,255,255,1),
- 'Gray': (127,127,127,1)
-}
+'Black':(0,0,0),
+'White':(255,255,255),
+'Red':(255,0,0),
+'Lime':(0,255,0),
+'Blue':(0,0,255),
+'Yellow':(255,255,0),
+'Cyan':(0,255,255),
+'Magenta':(255,0,255),
+'Silver':(192,192,192),
+'Gray':(128,128,128),
+'Maroon':(128,0,0),
+'Olive':(128,128,0),
+'Green':(0,128,0),
+'Purple':(128,0,128),
+'Teal':(0,128,128),
+'Navy':(0,0,128)
+  }
 
-""" color1 = py.inputChoice(prompt=get1Input + ", Choose a box color: ", choices=list(COLORS.keys()))
-color1 = py.inputChoice(prompt=get1Input + ", Choose a box color: ", choices=list(COLORS.keys()))
-color2 = py.inputChoice(prompt=get2Input + ", Choose a box color: ", choices=list(COLORS.keys()))
- """
-color1 = 'Red'
-color2 = 'Blue'
-class Square():
-    def __init__(self, SquareColor):
-        self.color = SquareColor
+class Player(Widget):
     
-    
-    def GetMat(self):
-        return Material(color=(self.color[0], self.color[1], self.color[2]))
+    def __init__(self, dx , dy, color, name, **kwargs):
+        super(Player, self).__init__(**kwargs)
+        self.layout = GridLayout(rows=2)
+        with self.layout.canvas:
+            Color(color[0], color[1], color[2])
+            Rectangle(pos=(self.x, self.y),size=(250,250))
+            """ 
+            self.layout.add_widget(Button(text=name, font_size=dx/10)) """
         
-    def GetGeo(self):
-        return BoxGeometry(1,1,1)
-    
-    def GetMesh(self):
-        return Mesh(self.GetGeo(), self.GetMat())
+        
 
+# Builds the app
 class BlackBoxApp(App):
-    def _adjust_aspect(self, *args):
-        rsize = self.renderer.size
-        aspect = rsize[0] / float(rsize[1])
-        self.renderer.camera.aspect = aspect
-    def rotate_cube(self,*dt):
-        self.box1.rotation.y += 1
-        self.box1.rotation.x += 1
-        self.box1.rotation.z += 1
-        
+     
+    def get_player_block(self, player,color, layout):
+        def NameEntered(instance):
+            layoutPlayer.children[2].text = f"{instance.text}'s Box"
+            layoutPlayer.remove_widget(instance)
+            layoutPlayer.add_widget(Label(text=instance.text,size_hint=(.4, .4),
+                    pos_hint={'x':.3, 'y':.1}, font_size='20sp'), index=0)
+            dropDownButton.disabled = False
+            if self.gameState == 1 or self.gameState == 2:
+                self.gameState += player
+            else:
+                self.gameState = player
             
-        self.box2.rotation.y += 1
-        self.box2.rotation.x += 1
-        self.box2.rotation.z += 1
-        
+            if self.gameState == 3:
+                layout.children[1].children[1].disabled = False
             
+        def select_color(self, x):
+            layoutPlayer.children[2].background_color = COLORS[x]
+            layoutPlayer.children[2].text = f"{layoutPlayer.children[2].text[0:-3]}{x} Box"
+            dropDown.disabled = True
+            dropDownButton.disabled = True
+            
+        def hide_block(dt):
+            _ = layoutPlayer.children[2]
+            layoutPlayer.remove_widget(_)
+            Clock.schedule_once(lambda dt: layoutPlayer.add_widget(_), 0.5)
+            layoutPlayer.children[1].disabled = True
+            layout.children[1].children[0].disabled = False
+            
+        layoutPlayer=FloatLayout()
+        dropDown = DropDown()
+        for colors in COLORS:
+            btn = Button(text=colors, background_color=(COLORS[colors][0], COLORS[colors][1], COLORS[colors][2]), size_hint_y=None, height=44)
+            btn.bind(on_release=lambda btn: dropDown.select(btn.text))
+            dropDown.add_widget(btn)
+        dropDownButton = Button(text="Choose a color", size_hint=(.3,.1), pos_hint={'x':.35,'y':.85})
+        dropDownButton.bind(on_release=dropDown.open)
+        dropDown.bind(on_select=select_color)
+        dropDownButton.disabled = True
+        layoutPlayer.add_widget(dropDownButton)
+        
+        layoutPlayer.add_widget(Button(text=f"{self.carrot[player-1]}",size_hint=(.3, .05),
+                pos_hint={'x':.35, 'y':.6}, color=(0,0,0), background_color=(255,255,255)))
+        layoutPlayer.add_widget(Button(text=f"Player {player}'s Box" ,size_hint=(.5, .4),
+                pos_hint={'x':.25, 'y':.4}, background_color=color, color=(255,255,255)))
+        
+        text = TextInput(hint_text=f"Player {player} Enter Name: ",size_hint=(.4, .05),
+                pos_hint={'x':.3, 'y':.2}, font_size='20sp', multiline=False, hint_text_color=(0,0,0))
+        layoutPlayer.add_widget(text)
+        text.bind(on_text_validate=NameEntered)
+        layoutPlayer.add_widget(Button(text=f"Check Box", on_press=hide_block ,size_hint=(.3, .05),
+                pos_hint={'x':.35, 'y':.1}, color=(0,0,0), background_color=(255,255,255)))
+        
+        return layoutPlayer
+
+    
+        
+    def game_state(self, layout):
+        
+        def set_start(dt):
+            self.gameState = 'Started'
+            randomNum = random.choice([0,2,0,2,0,2,0,2,0,2])
+            print(randomNum)
+            layoutGameManager.children[1].disabled = True
+            print(layout.children[randomNum].children[0])
+            layout.children[randomNum].children[1].disabled = False
+        
+        def swap_boxes(dt):
+            player1Box = layout.children[0].children[1]
+            
+            layout.children[2].children[2].text = player1Box.text
+            
+            """ layout.children[2].children[2] = player1Box
+            layout.children[2].children[3] = player1Prize """
+            
+        layoutGameManager = FloatLayout(size_hint_max_x=300)
+        swapButton = Button(text="Swap", size_hint=(1, .1), pos_hint={'x': .1, 'y': .05}, on_press=swap_boxes)
+        restartButton = Button(text='Play', size_hint=(.5, .1), pos_hint={'x': .3, 'y': .5}, on_press=set_start)
+        layoutGameManager.add_widget(restartButton)
+        layoutGameManager.add_widget(swapButton)
+        if self.gameState != 'Swap':
+            layoutGameManager.children[0].disabled = True
+            layoutGameManager.children[1].disabled = True
+            
+        return layoutGameManager
+    
     def build(self):
-        layout = FloatLayout()
-        # Create Renderer
-        self.renderer = Renderer()
+        self.gameState = "Play"
+        self.carrot = []
+        if random.randint(0,100) % 2 == 0:
+            self.carrot.append('Carrot') 
+        else:
+            self.carrot.append('') 
         
-        # Create camera for scene
-        self.camera = PerspectiveCamera(
-            fov=90,    # distance from the screen
-            aspect=0,  # "screen" ratio
-            near= 1,    # nearest rendered point
-            far= 10    # farthest rendered point
-        )
-        
-        scene = Scene()
-        
-        
-        # create cubes for scene
-        #
-        # default pure green cube
-        
-        self.box1 = Square(COLORS[color1]).GetMesh()
-        self.box2 = Square(COLORS[color2]).GetMesh()
-        
-        self.box1.pos.z = -5
-        self.box1.pos.x = -1
-        self.box1.pos.y = 0.8
-        self.box1.rotation.y = 90
-        
-        self.box2.pos.z = -5
-        self.box2.pos.x = 1
-        self.box2.pos.y = -0.8
-        self.box2.rotation.y = 90
-        
-        scene.add(self.box1)
-        scene.add(self.box2)
-        self.renderer.render(scene, self.camera)
-        self.renderer.bind(size=self._adjust_aspect)
-        layout.add_widget(self.renderer)
-        Clock.schedule_interval(self.rotate_cube, 0.1)
-        return layout 
+        if self.carrot[0] == '':
+            self.carrot.append('Carrot') 
+        else:
+            self.carrot.append('')
+        random.shuffle(self.carrot) 
+        layout = GridLayout(cols=3)
+        layout.add_widget(self.get_player_block(1, (255,255,255), layout))
+        layout.add_widget(self.game_state(layout))
+        layout.add_widget(self.get_player_block(2, (255,255,255), layout))
+        layout.children[0].children[0].disabled = True
+        layout.children[2].children[0].disabled = True  
+        """ layout.add_widget(Player(dx=250, dy=350, color=(255,0,0), name="Player 1"))
+        layout.add_widget(Player(dx=950, dy=350, color=(0,0,255), name="Player 2")) """
+        return layout
     
 def Main():
     BlackBoxApp().run()
-    return
 
 if __name__ == '__main__':
     Main()

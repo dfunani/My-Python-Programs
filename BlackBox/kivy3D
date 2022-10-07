@@ -1,0 +1,135 @@
+from kivy.app import App
+from kivy.uix.widget import Widget
+from kivy.uix.gridlayout import GridLayout
+from kivy.uix.floatlayout import FloatLayout
+from kivy.uix.label import Label
+from kivy.graphics import Color, Ellipse, Translate
+import pyinputplus as py
+from kivy.properties import (
+    NumericProperty, ObjectProperty,StringProperty
+)
+from os.path import join, dirname, abspath
+import random
+
+from kivy.clock import Clock
+from kivy3.loaders import OBJLoader
+# kivy3
+from kivy3 import Renderer, Scene
+from kivy3 import PerspectiveCamera
+
+# geometry
+from kivy3.extras.geometries import BoxGeometry
+from kivy3 import Material, Mesh
+
+prize = ["Carrot", ""]
+random.shuffle(prize)
+
+""" get1Input = input('Player1 Name: ')
+get2Input = input('Player2 Name: ')  """
+get1Input = "Delali"
+get2Input = "Funani"
+
+COLORS = {
+	'Red': (255,0,0,1),
+ 'Blue': (0,0,255,1),
+ 'Green': (0,255,0,1),
+ 'White': (255,255,255,1),
+ 'Gray': (127,127,127,1)
+}
+
+""" color1 = py.inputChoice(prompt=get1Input + ", Choose a box color: ", choices=list(COLORS.keys()))
+color2 = py.inputChoice(prompt=get2Input + ", Choose a box color: ", choices=list(COLORS.keys())) """
+color1 = "Red"
+color2 = "Green"
+
+FOLDER = dirname(abspath(__file__))
+
+class Square():
+    def __init__(self, SquareColor):
+        self.color = SquareColor
+    
+    
+    def GetMat(self):
+        return Material(color=(self.color[0], self.color[1], self.color[2]))
+        
+    def GetGeo(self):
+        return BoxGeometry(1,1,1)
+    
+    def GetMesh(self):
+        return Mesh(self.GetGeo(), self.GetMat())
+
+class BlackBoxApp(App):
+    def _adjust_aspect(self, *args):
+        rsize = self.renderer.size
+        aspect = rsize[0] / float(rsize[1])
+        self.renderer.camera.aspect = aspect
+    def rotate_cube(self,*dt):
+        self.box1.rotation.y += 1
+        
+        
+            
+        self.box2.rotation.y += 1
+        
+    
+    def Carrot(self):
+        input()
+        return f"{prize[0]}                                                                                                                                                                     {prize[1]}"
+            
+    def build(self):
+        layout = FloatLayout()
+        # Create Renderer
+        self.renderer = Renderer()
+        
+        # Create camera for scene
+        self.camera = PerspectiveCamera(
+            fov=90,    # distance from the screen
+            aspect=0,  # "screen" ratio
+            near= 1,    # nearest rendered point
+            far= 10    # farthest rendered point
+        )
+        
+        scene = Scene()
+        
+        
+        # create cubes for scene
+        #
+        # default pure green cube
+        loader = OBJLoader()
+        self.box1.extend()
+        """ self.box1 = Square(COLORS[color1]).GetMesh()
+         """
+        self.box2 = Square(COLORS[color2]).GetMesh()
+        
+        self.box1.pos.z = -5
+        self.box1.pos.x = -2
+        self.box1.pos.y = 0.5
+        self.box1.rotation.y = 90
+        self.box1.rotation.x = 30
+        self.box1.material.color = (255,0,0)
+        
+        self.box2.pos.z = -5
+        self.box2.pos.x = 2
+        self.box2.pos.y = 0.5
+        self.box2.rotation.y = 90
+        self.box2.rotation.x = 30
+        
+        scene.add(self.box1)
+        scene.add(self.box2)
+        self.renderer.render(scene, self.camera)
+        self.renderer.bind(size=self._adjust_aspect)
+        
+        
+        layout.add_widget(Label())
+        layout.add_widget(self.renderer)
+        layout.add_widget(Label(text=f"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n{get1Input}                                                                                                                                                                     {get2Input}"))
+        
+        
+        Clock.schedule_interval(self.rotate_cube, 0.1)
+        return layout 
+    
+def Main():
+    BlackBoxApp().run()
+    return
+
+if __name__ == '__main__':
+    Main()
