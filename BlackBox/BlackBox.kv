@@ -1,0 +1,48 @@
+#:kivy 1.0.9
+
+<Square>:
+	size: 5,150
+	canvas:
+		Line:
+			width: 5
+			rectangle: (self.x-125, self.y-125,250,250)
+
+<BlackBoxWindow>:
+	square1: Red
+	square2: Blue
+	canvas:
+		Rectangle:
+			pos: self.center_x - 5,0
+			size: 10, self.height
+		
+	Square:
+		id: Red
+		
+		center_x: self.parent.width/4
+		center_y:self.parent.height/4 * 3 
+		
+		Label:
+			text: root.square1.ChooseColor(1)
+			center: self.parent.x ,self.parent.y
+			font_size:50
+	
+		Label:
+			text: root.square1.PlayerName(1)
+			center: self.parent.x ,self.parent.y - 200
+			font_size:50
+		
+		
+	Square:
+		id: Blue
+		center_x: self.parent.width/4 * 3
+		center_y:self.parent.height/4 * 3 
+		Label:
+			text: root.square2.ChooseColor(2)
+			center: self.parent.x ,self.parent.y
+			font_size:50
+	
+		Label:
+			text: root.square2.PlayerName(2)
+			center: self.parent.x ,self.parent.y - 200
+			font_size:50
+			
