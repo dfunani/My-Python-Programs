@@ -1,0 +1,21 @@
+{
+	"query": {
+		"apikey": "85c23410-5146-11ed-9047-d9c68d49006d",
+		"country_id": "42"
+	},
+	"data": [
+		{
+			"team_id": 2524,
+			"name": "Chelsea FC",
+			"short_code": "CFC",
+			"common_name": "",
+			"logo": "https:\/\/cdn.sportdataapi.com\/images\/soccer\/teams\/100\/20.png",
+			"country": {
+				"country_id": 42,
+				"name": "England",
+				"country_code": "en",
+				"continent": "Europe"
+			}
+		}
+	]
+}

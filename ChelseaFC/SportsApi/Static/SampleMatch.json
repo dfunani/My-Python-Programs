@@ -1,0 +1,803 @@
+{
+	"query": {
+		"apikey": "85c23410-5146-11ed-9047-d9c68d49006d"
+	},
+	"data": {
+		"match_id": 371225,
+		"league_id": 281,
+		"round": {
+			"round_id": 40874,
+			"name": "1",
+			"is_current": null
+		},
+		"referee_id": null,
+		"season_id": 1959,
+		"stage": null,
+		"group": null,
+		"status_code": 3,
+		"match_start": "2021-09-14 19:00:00",
+		"match_start_iso": "2021-09-14T19:00:00+00:00",
+		"minute": 90,
+		"status": "finished",
+		"stats": {
+			"ht_score": "0-0",
+			"ft_score": "1-0",
+			"et_score": null,
+			"ps_score": null
+		},
+		"home_team": {
+			"team_id": 2524,
+			"name": "Chelsea FC",
+			"short_code": "CFC",
+			"common_name": "",
+			"logo": "https:\/\/cdn.sportdataapi.com\/images\/soccer\/teams\/100\/20.png",
+			"country": {
+				"country_id": 42,
+				"name": "England",
+				"country_code": "en",
+				"continent": "Europe"
+			}
+		},
+		"away_team": {
+			"team_id": 6183,
+			"name": "FC Zenit St Petersburg",
+			"short_code": "ZEN",
+			"common_name": "",
+			"logo": "https:\/\/cdn.sportdataapi.com\/images\/soccer\/teams\/100\/96.png",
+			"country": {
+				"country_id": 102,
+				"name": "Russia",
+				"country_code": "ru",
+				"continent": "Europe"
+			}
+		},
+		"match_events": [
+			{
+				"team_id": 2524,
+				"type": "yellowcard",
+				"player_id": 2950,
+				"player_name": "Azpilicueta, Cesar",
+				"related_player_id": null,
+				"related_player_name": null,
+				"minute": 45,
+				"extra_minute": null,
+				"reason": null,
+				"injured": null,
+				"own_goal": false,
+				"penalty": false,
+				"result": null
+			},
+			{
+				"team_id": 6183,
+				"type": "yellowcard",
+				"player_id": 6701,
+				"player_name": "Rakitskiy, Yaroslav",
+				"related_player_id": null,
+				"related_player_name": null,
+				"minute": 62,
+				"extra_minute": null,
+				"reason": null,
+				"injured": null,
+				"own_goal": false,
+				"penalty": false,
+				"result": null
+			},
+			{
+				"team_id": 2524,
+				"type": "substitution",
+				"player_id": 98,
+				"player_name": "Ziyech, Hakim",
+				"related_player_id": 4849,
+				"related_player_name": "Havertz, Kai",
+				"minute": 63,
+				"extra_minute": null,
+				"reason": null,
+				"injured": null,
+				"own_goal": false,
+				"penalty": false,
+				"result": null
+			},
+			{
+				"team_id": 2524,
+				"type": "goal",
+				"player_id": 5416,
+				"player_name": "Lukaku, Romelu",
+				"related_player_id": 16258,
+				"related_player_name": "Azpilicueta, Cesar",
+				"minute": 69,
+				"extra_minute": null,
+				"reason": null,
+				"injured": null,
+				"own_goal": false,
+				"penalty": false,
+				"result": "1-0"
+			},
+			{
+				"team_id": 6183,
+				"type": "substitution",
+				"player_id": 6707,
+				"player_name": "Malcom",
+				"related_player_id": 6780,
+				"related_player_name": "Dzyuba, Artem",
+				"minute": 75,
+				"extra_minute": null,
+				"reason": null,
+				"injured": null,
+				"own_goal": false,
+				"penalty": false,
+				"result": null
+			},
+			{
+				"team_id": 6183,
+				"type": "substitution",
+				"player_id": 19575,
+				"player_name": "Wendel",
+				"related_player_id": 6703,
+				"related_player_name": "Yerokhin, Aleksandr",
+				"minute": 76,
+				"extra_minute": null,
+				"reason": null,
+				"injured": null,
+				"own_goal": false,
+				"penalty": false,
+				"result": null
+			},
+			{
+				"team_id": 2524,
+				"type": "injury",
+				"player_id": 111,
+				"player_name": "Mendy, Edouard",
+				"related_player_id": null,
+				"related_player_name": null,
+				"minute": 81,
+				"extra_minute": null,
+				"reason": null,
+				"injured": "1",
+				"own_goal": false,
+				"penalty": false,
+				"result": null
+			},
+			{
+				"team_id": 6183,
+				"type": "substitution",
+				"player_id": 6781,
+				"player_name": "Kuzyaev, Daler",
+				"related_player_id": null,
+				"related_player_name": "Kravtsov, Kirill",
+				"minute": 82,
+				"extra_minute": null,
+				"reason": null,
+				"injured": null,
+				"own_goal": false,
+				"penalty": false,
+				"result": null
+			},
+			{
+				"team_id": 2524,
+				"type": "substitution",
+				"player_id": 2956,
+				"player_name": "Alonso, Marcos",
+				"related_player_id": 3030,
+				"related_player_name": "Chilwell, Benjamin",
+				"minute": 83,
+				"extra_minute": null,
+				"reason": null,
+				"injured": null,
+				"own_goal": false,
+				"penalty": false,
+				"result": null
+			},
+			{
+				"team_id": 2524,
+				"type": "substitution",
+				"player_id": 2950,
+				"player_name": "Azpilicueta, Cesar",
+				"related_player_id": 4309,
+				"related_player_name": "Silva, Thiago",
+				"minute": 83,
+				"extra_minute": null,
+				"reason": null,
+				"injured": null,
+				"own_goal": false,
+				"penalty": false,
+				"result": null
+			},
+			{
+				"team_id": 2524,
+				"type": "back from injury",
+				"player_id": 111,
+				"player_name": "Mendy, Edouard",
+				"related_player_id": null,
+				"related_player_name": null,
+				"minute": 83,
+				"extra_minute": null,
+				"reason": null,
+				"injured": "0",
+				"own_goal": false,
+				"penalty": false,
+				"result": null
+			},
+			{
+				"team_id": 6183,
+				"type": "substitution",
+				"player_id": 32689,
+				"player_name": "Claudinho",
+				"related_player_id": 23657,
+				"related_player_name": "Mostovoy, Andrey",
+				"minute": 88,
+				"extra_minute": null,
+				"reason": null,
+				"injured": null,
+				"own_goal": false,
+				"penalty": false,
+				"result": null
+			},
+			{
+				"team_id": 6183,
+				"type": "substitution",
+				"player_id": 6701,
+				"player_name": "Rakitskiy, Yaroslav",
+				"related_player_id": 33328,
+				"related_player_name": "Krugovoy, Daniil",
+				"minute": 88,
+				"extra_minute": null,
+				"reason": null,
+				"injured": null,
+				"own_goal": false,
+				"penalty": false,
+				"result": null
+			},
+			{
+				"team_id": 2524,
+				"type": "substitution",
+				"player_id": 2962,
+				"player_name": "Mount, Mason",
+				"related_player_id": 11171,
+				"related_player_name": "Loftus-Cheek, Ruben",
+				"minute": 90,
+				"extra_minute": 3,
+				"reason": null,
+				"injured": null,
+				"own_goal": false,
+				"penalty": false,
+				"result": null
+			}
+		],
+		"match_statistics": [
+			{
+				"team_id": 2524,
+				"team_name": "Chelsea FC",
+				"fouls": 7,
+				"injuries": 1,
+				"corners": 7,
+				"offsides": 0,
+				"shots_total": 12,
+				"shots_on_target": 3,
+				"shots_off_target": 5,
+				"shots_blocked": 4,
+				"possessiontime": 0,
+				"possessionpercent": 62,
+				"yellowcards": 1,
+				"yellowredcards": 0,
+				"redcards": 0,
+				"substitutions": 4,
+				"goal_kick": 3,
+				"goal_attempts": 8,
+				"free_kick": 6,
+				"throw_in": 19,
+				"ball_safe": 30,
+				"goals": 1,
+				"penalties": 0,
+				"attacks": 21,
+				"dangerous_attacks": 49
+			},
+			{
+				"team_id": 6183,
+				"team_name": "FC Zenit St Petersburg",
+				"fouls": 5,
+				"injuries": 0,
+				"corners": 4,
+				"offsides": 1,
+				"shots_total": 6,
+				"shots_on_target": 2,
+				"shots_off_target": 3,
+				"shots_blocked": 1,
+				"possessiontime": 0,
+				"possessionpercent": 38,
+				"yellowcards": 1,
+				"yellowredcards": 0,
+				"redcards": 0,
+				"substitutions": 5,
+				"goal_kick": 12,
+				"goal_attempts": 5,
+				"free_kick": 7,
+				"throw_in": 22,
+				"ball_safe": 57,
+				"goals": 0,
+				"penalties": 0,
+				"attacks": 15,
+				"dangerous_attacks": 28
+			}
+		],
+		"lineups": [
+			{
+				"team_id": 2524,
+				"formation": "3-4-2-1",
+				"formation_confirmed": 1,
+				"players": [
+					{
+						"player_id": 111,
+						"firstname": "Edouard",
+						"lastname": "Mendy",
+						"birthday": "1992-03-01",
+						"age": 30,
+						"weight": 86,
+						"height": 197,
+						"img": "",
+						"country": {
+							"country_id": 107,
+							"name": "Senegal",
+							"country_code": "sn",
+							"continent": "Africa"
+						},
+						"detailed": {
+							"number": 16,
+							"position": "G",
+							"order": 1
+						}
+					},
+					{
+						"player_id": 2950,
+						"firstname": "Cesar",
+						"lastname": "Azpilicueta Tanco",
+						"birthday": "1989-08-28",
+						"age": 33,
+						"weight": 76,
+						"height": 178,
+						"img": "",
+						"country": {
+							"country_id": 113,
+							"name": "Spain",
+							"country_code": "es",
+							"continent": "Europe"
+						},
+						"detailed": {
+							"number": 28,
+							"position": "D",
+							"order": 2
+						}
+					},
+					{
+						"player_id": 2946,
+						"firstname": "Andreas Bodtker",
+						"lastname": "Christensen",
+						"birthday": "1996-04-10",
+						"age": 26,
+						"weight": 81,
+						"height": 187,
+						"img": "",
+						"country": {
+							"country_id": 38,
+							"name": "Denmark",
+							"country_code": "dk",
+							"continent": "Europe"
+						},
+						"detailed": {
+							"number": 4,
+							"position": "D",
+							"order": 3
+						}
+					},
+					{
+						"player_id": 2944,
+						"firstname": "Antonio",
+						"lastname": "Rudiger",
+						"birthday": "1993-03-03",
+						"age": 29,
+						"weight": 85,
+						"height": 190,
+						"img": "",
+						"country": {
+							"country_id": 48,
+							"name": "Germany",
+							"country_code": "de",
+							"continent": "Europe"
+						},
+						"detailed": {
+							"number": 2,
+							"position": "D",
+							"order": 4
+						}
+					},
+					{
+						"player_id": 3557,
+						"firstname": "Reece",
+						"lastname": "James",
+						"birthday": "1999-12-08",
+						"age": 22,
+						"weight": 82,
+						"height": 182,
+						"img": "",
+						"country": {
+							"country_id": 42,
+							"name": "England",
+							"country_code": "en",
+							"continent": "Europe"
+						},
+						"detailed": {
+							"number": 24,
+							"position": "D",
+							"order": 5
+						}
+					},
+					{
+						"player_id": 2954,
+						"firstname": "Mateo",
+						"lastname": "Kovacic",
+						"birthday": "1994-05-06",
+						"age": 28,
+						"weight": 78,
+						"height": 176,
+						"img": "",
+						"country": {
+							"country_id": 35,
+							"name": "Croatia",
+							"country_code": "hr",
+							"continent": "Europe"
+						},
+						"detailed": {
+							"number": 8,
+							"position": "M",
+							"order": 6
+						}
+					},
+					{
+						"player_id": 2952,
+						"firstname": "Jorge Luiz",
+						"lastname": "Frello Filho",
+						"birthday": "1991-12-20",
+						"age": 30,
+						"weight": 67,
+						"height": 180,
+						"img": "",
+						"country": {
+							"country_id": 62,
+							"name": "Italy",
+							"country_code": "it",
+							"continent": "Europe"
+						},
+						"detailed": {
+							"number": 5,
+							"position": "M",
+							"order": 7
+						}
+					},
+					{
+						"player_id": 2956,
+						"firstname": "Marcos",
+						"lastname": "Alonso Mendoza",
+						"birthday": "1990-12-28",
+						"age": 31,
+						"weight": 87,
+						"height": 188,
+						"img": "",
+						"country": {
+							"country_id": 113,
+							"name": "Spain",
+							"country_code": "es",
+							"continent": "Europe"
+						},
+						"detailed": {
+							"number": 3,
+							"position": "D",
+							"order": 8
+						}
+					},
+					{
+						"player_id": 2962,
+						"firstname": "Mason Tony",
+						"lastname": "Mount",
+						"birthday": "1999-01-10",
+						"age": 23,
+						"weight": 65,
+						"height": 178,
+						"img": "",
+						"country": {
+							"country_id": 42,
+							"name": "England",
+							"country_code": "en",
+							"continent": "Europe"
+						},
+						"detailed": {
+							"number": 19,
+							"position": "M",
+							"order": 9
+						}
+					},
+					{
+						"player_id": 98,
+						"firstname": "Hakim",
+						"lastname": "Ziyech",
+						"birthday": "1993-03-19",
+						"age": 29,
+						"weight": 70,
+						"height": 180,
+						"img": "",
+						"country": {
+							"country_id": 81,
+							"name": "Morocco",
+							"country_code": "ma",
+							"continent": "Africa"
+						},
+						"detailed": {
+							"number": 22,
+							"position": "M",
+							"order": 10
+						}
+					},
+					{
+						"player_id": 5416,
+						"firstname": "Romelu Menama",
+						"lastname": "Lukaku Bolingoli",
+						"birthday": "1993-05-13",
+						"age": 29,
+						"weight": 94,
+						"height": 190,
+						"img": "",
+						"country": {
+							"country_id": 21,
+							"name": "Belgium",
+							"country_code": "be",
+							"continent": "Europe"
+						},
+						"detailed": {
+							"number": 9,
+							"position": "F",
+							"order": 11
+						}
+					}
+				]
+			},
+			{
+				"team_id": 6183,
+				"formation": "4-5-1",
+				"formation_confirmed": 1,
+				"players": [
+					{
+						"player_id": 24973,
+						"firstname": "Stanislav",
+						"lastname": "Kritsyuk",
+						"birthday": "1990-12-01",
+						"age": 31,
+						"weight": 85,
+						"height": 192,
+						"img": "",
+						"country": {
+							"country_id": 102,
+							"name": "Russia",
+							"country_code": "ru",
+							"continent": "Europe"
+						},
+						"detailed": {
+							"number": 1,
+							"position": "G",
+							"order": 1
+						}
+					},
+					{
+						"player_id": 6706,
+						"firstname": "Aleksey",
+						"lastname": "Sutormin",
+						"birthday": "1994-01-10",
+						"age": 28,
+						"weight": 78,
+						"height": 187,
+						"img": "https:\/\/cdn.sportdataapi.com\/images\/soccer\/players\/50\/9273.png",
+						"country": {
+							"country_id": 102,
+							"name": "Russia",
+							"country_code": "ru",
+							"continent": "Europe"
+						},
+						"detailed": {
+							"number": 19,
+							"position": "D",
+							"order": 2
+						}
+					},
+					{
+						"player_id": 23900,
+						"firstname": "Dmitri",
+						"lastname": "Chistyakov",
+						"birthday": "1994-01-13",
+						"age": 28,
+						"weight": 75,
+						"height": 185,
+						"img": "",
+						"country": {
+							"country_id": 102,
+							"name": "Russia",
+							"country_code": "ru",
+							"continent": "Europe"
+						},
+						"detailed": {
+							"number": 2,
+							"position": "D",
+							"order": 3
+						}
+					},
+					{
+						"player_id": 6701,
+						"firstname": "Yaroslav",
+						"lastname": "Rakitskiy",
+						"birthday": "1989-08-03",
+						"age": 33,
+						"weight": 70,
+						"height": 180,
+						"img": "https:\/\/cdn.sportdataapi.com\/images\/soccer\/players\/50\/9272.png",
+						"country": {
+							"country_id": 122,
+							"name": "Ukraine",
+							"country_code": "ua",
+							"continent": "Europe"
+						},
+						"detailed": {
+							"number": 44,
+							"position": "D",
+							"order": 4
+						}
+					},
+					{
+						"player_id": 6702,
+						"firstname": "Douglas dos Santos",
+						"lastname": "Justino de Melo",
+						"birthday": "1994-03-22",
+						"age": 28,
+						"weight": 70,
+						"height": 175,
+						"img": "https:\/\/cdn.sportdataapi.com\/images\/soccer\/players\/50\/9266.png",
+						"country": {
+							"country_id": 25,
+							"name": "Brazil",
+							"country_code": "br",
+							"continent": "South America"
+						},
+						"detailed": {
+							"number": 3,
+							"position": "D",
+							"order": 5
+						}
+					},
+					{
+						"player_id": 6707,
+						"firstname": "Malcom Filipe",
+						"lastname": "Silva de Oliveira",
+						"birthday": "1997-02-26",
+						"age": 25,
+						"weight": 74,
+						"height": 172,
+						"img": "https:\/\/cdn.sportdataapi.com\/images\/soccer\/players\/50\/9270.png",
+						"country": {
+							"country_id": 25,
+							"name": "Brazil",
+							"country_code": "br",
+							"continent": "South America"
+						},
+						"detailed": {
+							"number": 10,
+							"position": "F",
+							"order": 6
+						}
+					},
+					{
+						"player_id": 19575,
+						"firstname": "Marcus Wendel",
+						"lastname": "Valle da Silva",
+						"birthday": "1997-08-28",
+						"age": 25,
+						"weight": 65,
+						"height": 170,
+						"img": "",
+						"country": {
+							"country_id": 25,
+							"name": "Brazil",
+							"country_code": "br",
+							"continent": "South America"
+						},
+						"detailed": {
+							"number": 8,
+							"position": "M",
+							"order": 7
+						}
+					},
+					{
+						"player_id": 6705,
+						"firstname": "Wilmar Enrique",
+						"lastname": "Barrios Teheran",
+						"birthday": "1993-10-16",
+						"age": 29,
+						"weight": 73,
+						"height": 179,
+						"img": "",
+						"country": {
+							"country_id": 32,
+							"name": "Colombia",
+							"country_code": "co",
+							"continent": "South America"
+						},
+						"detailed": {
+							"number": 5,
+							"position": "M",
+							"order": 8
+						}
+					},
+					{
+						"player_id": 6781,
+						"firstname": "Daler Adyamovich",
+						"lastname": "Kuzyaev",
+						"birthday": "1993-01-15",
+						"age": 29,
+						"weight": 74,
+						"height": 182,
+						"img": "",
+						"country": {
+							"country_id": 102,
+							"name": "Russia",
+							"country_code": "ru",
+							"continent": "Europe"
+						},
+						"detailed": {
+							"number": 14,
+							"position": "M",
+							"order": 9
+						}
+					},
+					{
+						"player_id": 32689,
+						"firstname": "",
+						"lastname": "Claudinho",
+						"birthday": null,
+						"age": null,
+						"weight": null,
+						"height": null,
+						"img": "https:\/\/cdn.sportdataapi.com\/images\/soccer\/players\/50\/95670.png",
+						"country": null,
+						"detailed": {
+							"number": 11,
+							"position": "F",
+							"order": 10
+						}
+					},
+					{
+						"player_id": 853,
+						"firstname": "Sardar",
+						"lastname": "Azmoun",
+						"birthday": "1995-01-01",
+						"age": 27,
+						"weight": 80,
+						"height": 186,
+						"img": "",
+						"country": {
+							"country_id": 59,
+							"name": "Iran",
+							"country_code": "ir",
+							"continent": "Asia"
+						},
+						"detailed": {
+							"number": 7,
+							"position": "F",
+							"order": 11
+						}
+					}
+				]
+			}
+		],
+		"venue": {
+			"venue_id": 1212,
+			"name": "Stamford Bridge",
+			"capacity": 41798,
+			"city": "London",
+			"country_id": 42
+		}
+	}
+}

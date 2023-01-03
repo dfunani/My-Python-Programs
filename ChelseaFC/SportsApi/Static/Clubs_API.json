@@ -1,0 +1,3783 @@
+{
+    "query": {
+        "country_id": "42"
+    },
+    "data": [
+        {
+            "team_id": 2511,
+            "name": "AFC Bournemouth",
+            "short_code": "BRN",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/5.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2652,
+            "name": "AFC Fylde",
+            "short_code": "FYL",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/320.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2729,
+            "name": "AFC Hornchurch",
+            "short_code": "HOR",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/4255.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2827,
+            "name": "AFC Sudbury",
+            "short_code": "SUD",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/7197.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2681,
+            "name": "AFC Telford United",
+            "short_code": "TEL",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/3031.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2831,
+            "name": "AFC Totton",
+            "short_code": "TOT",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/7448.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2604,
+            "name": "AFC Wimbledon",
+            "short_code": "WIM",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/315.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2611,
+            "name": "Accrington Stanley",
+            "short_code": "ACS",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/291.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2651,
+            "name": "Aldershot Town FC",
+            "short_code": "ALD",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/3001.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2691,
+            "name": "Alfreton Town FC",
+            "short_code": "ALF",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/3040.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2674,
+            "name": "Altrincham FC",
+            "short_code": "ALT",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/336.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 13396,
+            "name": "Arlesey Town FC",
+            "short_code": "ARL",
+            "league_id": 0ll,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/7106.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2522,
+            "name": "Arsenal FC",
+            "short_code": "ARS",
+            "league_id": 237,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/18.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2901,
+            "name": "Arsenal LFC (W)",
+            "short_code": "ARS",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/4614.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2700,
+            "name": "Ashton United FC",
+            "short_code": "ASH",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/6111.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2520,
+            "name": "Aston Villa",
+            "short_code": "VIL",
+            "league_id": 237,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/14.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2898,
+            "name": "Aston Villa Lfc (W)",
+            "short_code": "AVL",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/9272.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2798,
+            "name": "Banbury United",
+            "short_code": "BAN",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/7227.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2662,
+            "name": "Barnet FC",
+            "short_code": "BAR",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/337.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2533,
+            "name": "Barnsley",
+            "short_code": "BAR",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/261.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2656,
+            "name": "Barrow AFC",
+            "short_code": "BAR",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/3002.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2795,
+            "name": "Barwell",
+            "short_code": "BAR",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/7114.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2867,
+            "name": "Basingstoke Town FC",
+            "short_code": "BAS",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/9836.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2744,
+            "name": "Bath City FC",
+            "short_code": "BAT",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/3009.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2857,
+            "name": "Bedford Town Football Club",
+            "short_code": "BED",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/9857.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2814,
+            "name": "Bedworth United",
+            "short_code": "BED",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/9888.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 10409,
+            "name": "Bideford FC",
+            "short_code": "BID",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/7188.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2804,
+            "name": "Biggleswade Town",
+            "short_code": "BIT",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/7108.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2761,
+            "name": "Billericay Town",
+            "short_code": "BIL",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/312.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2538,
+            "name": "Birmingham City",
+            "short_code": "BC",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/266.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2969,
+            "name": "Birmingham City LFC (W)",
+            "short_code": "BRM",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/9329.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2722,
+            "name": "Bishop\u00b4s Stortford",
+            "short_code": "BST",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/6233.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2539,
+            "name": "Blackburn Rovers",
+            "short_code": "BLA",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/267.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2975,
+            "name": "Blackburn Rovers LFC (W)",
+            "short_code": "BLA",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/9335.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2621,
+            "name": "Blackpool",
+            "short_code": "BLA",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/293.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2684,
+            "name": "Blyth Spartans AFC",
+            "short_code": "BLY",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/3034.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2723,
+            "name": "Bognor Regis Town",
+            "short_code": "BOG",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/6234.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2601,
+            "name": "Bolton Wanderers",
+            "short_code": "BOL",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/327.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2658,
+            "name": "Boreham Wood FC",
+            "short_code": "BOR",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/3003.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2692,
+            "name": "Boston United FC",
+            "short_code": "BOS",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/288.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2690,
+            "name": "Brackley Town FC",
+            "short_code": "BRA",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/3039.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2645,
+            "name": "Bradford City",
+            "short_code": "BRA",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/314.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2689,
+            "name": "Bradford Park Avenue AFC",
+            "short_code": "BPA",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/3038.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2698,
+            "name": "Braintree Town FC",
+            "short_code": "BRA",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/3010.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2537,
+            "name": "Brentford FC",
+            "short_code": "BFC",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/265.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2871,
+            "name": "Brentwood Town FC",
+            "short_code": "BRE",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/7221.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2518,
+            "name": "Brighton & Hove Albion",
+            "short_code": "BHA",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/12.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2900,
+            "name": "Brighton & Hove Albion LFC (W)",
+            "short_code": "BRH",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/9274.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2895,
+            "name": "Brighton and Hove Albion",
+            "short_code": "BHA",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/6229.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2545,
+            "name": "Bristol City",
+            "short_code": "BRC",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/273.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2970,
+            "name": "Bristol City Women (W)",
+            "short_code": "BRC",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/9330.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2622,
+            "name": "Bristol Rovers",
+            "short_code": "BR",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/347.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2669,
+            "name": "Bromley FC",
+            "short_code": "BRO",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/348.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2767,
+            "name": "Burgess Hill Town",
+            "short_code": "BUR",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/9979.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2513,
+            "name": "Burnley FC",
+            "short_code": "BUR",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/7.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2605,
+            "name": "Burton Albion",
+            "short_code": "BUR",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/324.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2659,
+            "name": "Bury FC",
+            "short_code": "BUR",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/371.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 10385,
+            "name": "Bury Town FC",
+            "short_code": "BUT",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/9838.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2716,
+            "name": "Buxton FC",
+            "short_code": "BUX",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/6122.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 10406,
+            "name": "Cambridge City",
+            "short_code": "CAM",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/9922.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2646,
+            "name": "Cambridge United",
+            "short_code": "CAM",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/325.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2834,
+            "name": "Canvey Island",
+            "short_code": "CAN",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/7137.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2627,
+            "name": "Carlisle United",
+            "short_code": "CAR",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/278.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2727,
+            "name": "Carshalton Athletic FC",
+            "short_code": "CAR",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/287.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2540,
+            "name": "Charlton Athletic",
+            "short_code": "CHA",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/268.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2912,
+            "name": "Charlton Athletic (W)",
+            "short_code": "CHA",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/9284.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2745,
+            "name": "Chelmsford City",
+            "short_code": "CHE",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/3011.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2524,
+            "name": "Chelsea FC",
+            "short_code": "CFC",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/20.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2897,
+            "name": "Chelsea LFC (W)",
+            "short_code": "CHE",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/9271.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2638,
+            "name": "Cheltenham Town",
+            "short_code": "CHE",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/289.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2772,
+            "name": "Chesham Utd",
+            "short_code": "CHE",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/7101.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2693,
+            "name": "Chester FC",
+            "short_code": "CHE",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/3041.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2670,
+            "name": "Chesterfield FC",
+            "short_code": "CHE",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/3008.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2756,
+            "name": "Chippenham Town",
+            "short_code": "CHI",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/343.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2668,
+            "name": "Chorley FC",
+            "short_code": "CHO",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/310.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2818,
+            "name": "Cinderford Town AFC",
+            "short_code": "CIN",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/7187.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 10377,
+            "name": "Cirencester Town",
+            "short_code": "CIR",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/7165.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2811,
+            "name": "Coalville Town",
+            "short_code": "COA",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/7239.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2647,
+            "name": "Colchester United",
+            "short_code": "COL",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/321.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2752,
+            "name": "Concord Rangers",
+            "short_code": "COR",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/3018.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 10461,
+            "name": "Corby Town",
+            "short_code": "COR",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/7213.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2606,
+            "name": "Coventry City",
+            "short_code": "COC",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/322.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2973,
+            "name": "Coventry United Lfc (W)",
+            "short_code": "COV",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/9333.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2628,
+            "name": "Crawley Town",
+            "short_code": "CRA",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/329.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2735,
+            "name": "Cray Wanderers",
+            "short_code": "CRA",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/6242.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2631,
+            "name": "Crewe Alexandra",
+            "short_code": "CRA",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/292.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2515,
+            "name": "Crystal Palace",
+            "short_code": "PAL",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/9.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2979,
+            "name": "Crystal Palace (W)",
+            "short_code": "CRP",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/9339.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2688,
+            "name": "Curzon Ashton FC",
+            "short_code": "ASH",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/3037.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2666,
+            "name": "Dagenham & Redbridge FC",
+            "short_code": "DAG",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/3006.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2695,
+            "name": "Darlington FC",
+            "short_code": "DAR",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/318.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2760,
+            "name": "Dartford FC",
+            "short_code": "DAR",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/3024.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2842,
+            "name": "Derby County",
+            "short_code": "DCO",
+            "league_id": 0erby County R.","logo": "https: //cdn.sportdataapi.com/images/soccer/teams/100/6225.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 12427,
+            "name": "Derby County",
+            "short_code": "DER",
+            "league_id": 0erby County","logo": "https: //cdn.sportdataapi.com/images/soccer/teams/100/276.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2608,
+            "name": "Doncaster Rovers",
+            "short_code": "DR",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/316.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2790,
+            "name": "Dorchester Town",
+            "short_code": "DOR",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/7271.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2754,
+            "name": "Dorking Wanderers",
+            "short_code": "DOW",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/3020.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2671,
+            "name": "Dover Athletic FC",
+            "short_code": "DOV",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/333.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2758,
+            "name": "Dulwich Hamlet",
+            "short_code": "DUL",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/277.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 10356,
+            "name": "Dunstable Town FC",
+            "short_code": "DUT",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/7209.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2971,
+            "name": "Durham LFC (W)",
+            "short_code": "DUR",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/9331.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2740,
+            "name": "East Thurrock United",
+            "short_code": "THU",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/6247.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2762,
+            "name": "Eastbourne Borough",
+            "short_code": "EAS",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/3025.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2672,
+            "name": "Eastleigh FC",
+            "short_code": "EFC",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/296.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2664,
+            "name": "Ebbsfleet United FC",
+            "short_code": "EBB",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/301.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2725,
+            "name": "Enfield Town",
+            "short_code": "ENF",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/4247.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2516,
+            "name": "Everton FC",
+            "short_code": "EVE",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/10.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2966,
+            "name": "Everton LFC (W)",
+            "short_code": "EVE",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/9326.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2633,
+            "name": "Exeter City",
+            "short_code": "EXC",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/326.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2699,
+            "name": "FC United of Manchester",
+            "short_code": "FCM",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/4253.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2774,
+            "name": "Farnborough FC",
+            "short_code": "FAR",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/7122.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2694,
+            "name": "Farsley Celtic FC",
+            "short_code": "FAR",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/3042.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2613,
+            "name": "Fleetwood Town",
+            "short_code": "FLE",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/338.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2738,
+            "name": "Folkestone Invicta",
+            "short_code": "FOL",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/6245.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2635,
+            "name": "Forest Green Rovers",
+            "short_code": "FGR",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/311.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 10457,
+            "name": "Frickley Athletic",
+            "short_code": "FRI",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/9842.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2837,
+            "name": "Frome Town",
+            "short_code": "FRT",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/7452.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 12294,
+            "name": "Fulham FC",
+            "short_code": "FUL",
+            "league_id": 0ulham","logo": "https: //cdn.sportdataapi.com/images/soccer/teams/100/262.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 12429,
+            "name": "Fulham FC",
+            "short_code": "FUL",
+            "league_id": 0ulham (R)","logo": "https: //cdn.sportdataapi.com/images/soccer/teams/100/6214.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2712,
+            "name": "Gainsborough Trinity",
+            "short_code": "GAI",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/6119.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2686,
+            "name": "Gateshead FC",
+            "short_code": "GAT",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/349.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2609,
+            "name": "Gillingham FC",
+            "short_code": "GIL",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/280.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2685,
+            "name": "Gloucester City",
+            "short_code": "GLO",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/3035.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2776,
+            "name": "Gosport Borough",
+            "short_code": "GBO",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/7166.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2721,
+            "name": "Grantham Town",
+            "short_code": "GRA",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/6127.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 10345,
+            "name": "Grays Athletic",
+            "short_code": "GRA",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/7201.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2640,
+            "name": "Grimsby Town",
+            "short_code": "GRI",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/299.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2676,
+            "name": "Guiseley FC",
+            "short_code": "GUI",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/3026.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2815,
+            "name": "Halesowen Town FC",
+            "short_code": "HAL",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/4248.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2665,
+            "name": "Halifax Town",
+            "short_code": "HAL",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/3005.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2746,
+            "name": "Hampton & Richmond",
+            "short_code": "HAM",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/3012.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2769,
+            "name": "Harlow Town FC",
+            "short_code": "HAR",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/9955.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2653,
+            "name": "Harrogate Town FC",
+            "short_code": "HTO",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/353.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2778,
+            "name": "Harrow Borough",
+            "short_code": "HAR",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/7193.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2660,
+            "name": "Hartlepool United FC",
+            "short_code": "HAR",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/306.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2823,
+            "name": "Hastings United",
+            "short_code": "HAS",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/7140.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2697,
+            "name": "Havant & Waterlooville FC",
+            "short_code": "HAV",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/3013.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2784,
+            "name": "Hayes & Yeading United F.C.",
+            "short_code": "HYE",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/351.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2766,
+            "name": "Hednesford Town",
+            "short_code": "HED",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/4251.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2748,
+            "name": "Hemel Hempstead",
+            "short_code": "HHT",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/3015.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2785,
+            "name": "Hendon FC",
+            "short_code": "HEN",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/7148.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2682,
+            "name": "Hereford FC",
+            "short_code": "HER",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/3032.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2812,
+            "name": "Hitchin Town",
+            "short_code": "HIT",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/7124.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2547,
+            "name": "Huddersfield Town",
+            "short_code": "HUD",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/275.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2532,
+            "name": "Hull City",
+            "short_code": "HUL",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/260.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2749,
+            "name": "Hungerford Town FC",
+            "short_code": "HUN",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/3016.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2703,
+            "name": "Hyde United FC",
+            "short_code": "HYD",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/6112.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 12165,
+            "name": "Ilkeston FC",
+            "short_code": "ILK",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/9864.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2603,
+            "name": "Ipswich Town",
+            "short_code": "IPS",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/281.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 10478,
+            "name": "Kendall Town",
+            "short_code": "KEN",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/9906.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2680,
+            "name": "Kettering Town",
+            "short_code": "KET",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/3030.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2678,
+            "name": "Kidderminster Harriers FC",
+            "short_code": "KID",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/3028.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2809,
+            "name": "Kings Langley",
+            "short_code": "KIN",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/7243.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2677,
+            "name": "Kings Lynn FC",
+            "short_code": "KIN",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/3027.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2734,
+            "name": "Kingstonian FC",
+            "short_code": "KIN",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/346.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2679,
+            "name": "Leamington FC",
+            "short_code": "LEA",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/3029.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2743,
+            "name": "Leatherhead FC",
+            "short_code": "LEA",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/6250.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2546,
+            "name": "Leeds United",
+            "short_code": "LU",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/274.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2878,
+            "name": "Leicester City",
+            "short_code": "LEC",
+            "league_id": 0eicester (R)","logo": "https: //cdn.sportdataapi.com/images/soccer/teams/100/6224.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 12424,
+            "name": "Leicester City",
+            "short_code": "LEI",
+            "league_id": 0eicester","logo": "https: //cdn.sportdataapi.com/images/soccer/teams/100/15.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2810,
+            "name": "Leiston FC",
+            "short_code": "LFC",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/7135.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2724,
+            "name": "Lewes FC",
+            "short_code": "LEW",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/6235.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2977,
+            "name": "Lewes FC (W)",
+            "short_code": "LEW",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/9337.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2637,
+            "name": "Leyton Orient",
+            "short_code": "LEY",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/341.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2610,
+            "name": "Lincoln City",
+            "short_code": "LIC",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/282.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2509,
+            "name": "Liverpool FC",
+            "short_code": "LFC",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/1.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2974,
+            "name": "Liverpool LFC (W)",
+            "short_code": "LFC",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/9334.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 3274,
+            "name": "Liverpool U19",
+            "short_code": "LIV",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/7668.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2967,
+            "name": "London Bees LFC (W)",
+            "short_code": "LON",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/9327.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2813,
+            "name": "Lowestoft Town",
+            "short_code": "LOW",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/7103.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2525,
+            "name": "Luton Town",
+            "short_code": "LUT",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/253.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2634,
+            "name": "Macclesfield Town",
+            "short_code": "MAC",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/345.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2650,
+            "name": "Maidenhead United FC",
+            "short_code": "MAI",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/303.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2696,
+            "name": "Maidstone United FC",
+            "short_code": "MAI",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/331.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2892,
+            "name": "Manchester City",
+            "short_code": "MAC",
+            "league_id": 0anchester City U23","logo": "https: //cdn.sportdataapi.com/images/soccer/teams/100/6219.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 12400,
+            "name": "Manchester City",
+            "short_code": "MNC",
+            "league_id": 0anchester City ","logo": "https: //cdn.sportdataapi.com/images/soccer/teams/100/4.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2904,
+            "name": "Manchester City LFC (W)",
+            "short_code": "MAC",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/4617.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 3294,
+            "name": "Manchester City U19",
+            "short_code": "MAC",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/7678.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2523,
+            "name": "Manchester United",
+            "short_code": "MNU",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/19.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2899,
+            "name": "Manchester United (W)",
+            "short_code": "MAU",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/9273.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 3381,
+            "name": "Manchester United U19",
+            "short_code": "MUN",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/17763.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2630,
+            "name": "Mansfield Town",
+            "short_code": "MAT",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/309.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2730,
+            "name": "Margate FC",
+            "short_code": "MAR",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/6238.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2763,
+            "name": "Marine FC",
+            "short_code": "MAR",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/7242.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2707,
+            "name": "Matlock Town",
+            "short_code": "MAT",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/4250.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2728,
+            "name": "Merstham",
+            "short_code": "MER",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/6237.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2779,
+            "name": "Merthyr Town",
+            "short_code": "MER",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/7182.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2780,
+            "name": "Metropolitan Police",
+            "short_code": "MET",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/7191.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2709,
+            "name": "Mickleover Sports",
+            "short_code": "MIC",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/6117.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2843,
+            "name": "Middlesbrough FC",
+            "short_code": "MIB",
+            "league_id": 0iddlesbrough (R)","logo": "https: //cdn.sportdataapi.com/images/soccer/teams/100/6211.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 12425,
+            "name": "Middlesbrough FC",
+            "short_code": "MID",
+            "league_id": 0iddlesbrough","logo": "https: //cdn.sportdataapi.com/images/soccer/teams/100/254.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2541,
+            "name": "Millwall FC",
+            "short_code": "MIL",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/269.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2623,
+            "name": "Milton Keynes Dons",
+            "short_code": "MKD",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/283.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2639,
+            "name": "Morecambe FC",
+            "short_code": "MFC",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/294.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2711,
+            "name": "Nantwich Town",
+            "short_code": "NAN",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/319.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2800,
+            "name": "Needham Market FC",
+            "short_code": "NEE",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/7211.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 849,
+            "name": "Newcastle United",
+            "short_code": "NEW",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/17.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2764,
+            "name": "North Ferriby Utd",
+            "short_code": "NFE",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/9903.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2643,
+            "name": "Northampton Town",
+            "short_code": "NOR",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/344.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2510,
+            "name": "Norwich City",
+            "short_code": "NOR",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/2.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2543,
+            "name": "Nottingham Forest",
+            "short_code": "NOF",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/271.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2673,
+            "name": "Notts County",
+            "short_code": "NOC",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/302.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2701,
+            "name": "Nuneaton Borough FC",
+            "short_code": "NUN",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/7142.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2636,
+            "name": "Oldham Athletic",
+            "short_code": "OLD",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/350.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2751,
+            "name": "Oxford City",
+            "short_code": "OXF",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/307.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2617,
+            "name": "Oxford United",
+            "short_code": "OXU",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/352.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2839,
+            "name": "Paulton Rovers",
+            "short_code": "PAU",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/7453.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2612,
+            "name": "Peterborough United",
+            "short_code": "PET",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/298.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2632,
+            "name": "Plymouth Argyle",
+            "short_code": "PA",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/328.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2775,
+            "name": "Poole Town",
+            "short_code": "POT",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/7186.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2648,
+            "name": "Port Vale",
+            "short_code": "PVA",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/284.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2615,
+            "name": "Portsmouth FC",
+            "short_code": "POR",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/354.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2542,
+            "name": "Preston North End",
+            "short_code": "PNE",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/270.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2528,
+            "name": "Queens Park Rangers",
+            "short_code": "QPR",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/256.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2873,
+            "name": "Ramsbottom United",
+            "short_code": "RAU",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/7254.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 12296,
+            "name": "Reading FC",
+            "short_code": "REA",
+            "league_id": 0eading","logo": "https: //cdn.sportdataapi.com/images/soccer/teams/100/263.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 12428,
+            "name": "Reading FC",
+            "short_code": "REA",
+            "league_id": 0eading (R)","logo": "https: //cdn.sportdataapi.com/images/soccer/teams/100/6221.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2902,
+            "name": "Reading LFC (W)",
+            "short_code": "REA",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/9275.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2797,
+            "name": "Redditch United",
+            "short_code": "RED",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/7265.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2619,
+            "name": "Rochdale AFC",
+            "short_code": "ROC",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/340.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2602,
+            "name": "Rotherham United",
+            "short_code": "ROU",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/304.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2808,
+            "name": "Rushall Olympic",
+            "short_code": "RUS",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/7249.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2625,
+            "name": "Salford City FC",
+            "short_code": "SAL",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/323.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2773,
+            "name": "Salisbury FC",
+            "short_code": "SAL",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/4246.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2641,
+            "name": "Scunthorpe United",
+            "short_code": "SCU",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/330.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2956,
+            "name": "Sheffield LFC (W)",
+            "short_code": "SHE",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/9322.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2512,
+            "name": "Sheffield United",
+            "short_code": "SHU",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/6.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2903,
+            "name": "Sheffield United LFC(W)",
+            "short_code": "SHE",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/9276.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2536,
+            "name": "Sheffield Wednesday",
+            "short_code": "SHW",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/264.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2614,
+            "name": "Shrewsbury Town",
+            "short_code": "SHR",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/313.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 10584,
+            "name": "Skelmersdale United",
+            "short_code": "SKE",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/9898.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2753,
+            "name": "Slough Town FC",
+            "short_code": "SLO",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/3019.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2654,
+            "name": "Solihull Moors FC",
+            "short_code": "SOL",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/308.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2893,
+            "name": "Southampton FC",
+            "short_code": "SOU",
+            "league_id": 0outhampton (R)","logo": "https: //cdn.sportdataapi.com/images/soccer/teams/100/6220.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 12423,
+            "name": "Southampton FC",
+            "short_code": "SOT",
+            "league_id": 0outhampton","logo": "https: //cdn.sportdataapi.com/images/soccer/teams/100/8.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2607,
+            "name": "Southend United",
+            "short_code": "SOU",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/334.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2687,
+            "name": "Southport FC",
+            "short_code": "SOU",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/3036.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2683,
+            "name": "Spennymoor Town FC",
+            "short_code": "SPE",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/3033.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2755,
+            "name": "St Albans City",
+            "short_code": "STA",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/3021.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2801,
+            "name": "St Ives Town",
+            "short_code": "SIT",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/7266.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2816,
+            "name": "St Neots Town",
+            "short_code": "SNT",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/7107.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2706,
+            "name": "Stafford Rangers",
+            "short_code": "STA",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/6115.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 10562,
+            "name": "Staines Town FC",
+            "short_code": "STA",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/7231.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2710,
+            "name": "Stalybridge Celtic",
+            "short_code": "STA",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/6118.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2862,
+            "name": "Stamford AFC",
+            "short_code": "STA",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/7247.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2626,
+            "name": "Stevenage FC",
+            "short_code": "STE",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/297.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2649,
+            "name": "Stockport County FC",
+            "short_code": "STO",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/3000.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 10502,
+            "name": "Stocksbridge Park Steels FC",
+            "short_code": "STO",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/9896.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2879,
+            "name": "Stoke City",
+            "short_code": "SCFC",
+            "league_id": 0toke City (R)","logo": "https: //cdn.sportdataapi.com/images/soccer/teams/100/6227.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 12426,
+            "name": "Stoke City",
+            "short_code": "STK",
+            "league_id": 0toke","logo": "https: //cdn.sportdataapi.com/images/soccer/teams/100/255.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2792,
+            "name": "Stourbridge FC",
+            "short_code": "STO",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/295.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2616,
+            "name": "Sunderland AFC",
+            "short_code": "SUN",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/279.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2940,
+            "name": "Sunderland AFC (W)",
+            "short_code": "SUN",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/9312.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2830,
+            "name": "Sutton Coldfield",
+            "short_code": "SUT",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/7264.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2661,
+            "name": "Sutton United FC",
+            "short_code": "SUT",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/3004.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2642,
+            "name": "Swindon Town",
+            "short_code": "SWI",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/290.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2802,
+            "name": "Tamworth FC",
+            "short_code": "TAM",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/7141.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 3507,
+            "name": "The New Saints FC",
+            "short_code": "TNS",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/59.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2757,
+            "name": "Tonbridge Angels",
+            "short_code": "TON",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/3022.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2657,
+            "name": "Torquay United",
+            "short_code": "TOR",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/332.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 12295,
+            "name": "Tottenham Hotspur",
+            "short_code": "TOT",
+            "league_id": 0ottenham","logo": "https: //cdn.sportdataapi.com/images/soccer/teams/100/13.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 12430,
+            "name": "Tottenham Hotspur",
+            "short_code": "TOT",
+            "league_id": 0ottenham","logo": "https: //cdn.sportdataapi.com/images/soccer/teams/100/6218.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2972,
+            "name": "Tottenham Hotspur (W)",
+            "short_code": "TOT",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/9332.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 3300,
+            "name": "Tottenham Hotspur U19",
+            "short_code": "TOT",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/7682.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2618,
+            "name": "Tranmere Rovers",
+            "short_code": "TRA",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/285.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2770,
+            "name": "Truro City FC",
+            "short_code": "TRU",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/7183.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 10452,
+            "name": "VCD Athletic FC",
+            "short_code": "VCD",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/7169.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2644,
+            "name": "Walsall FC",
+            "short_code": "WAl",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/317.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2717,
+            "name": "Warrington Town",
+            "short_code": "WAR",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/6123.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2517,
+            "name": "Watford FC",
+            "short_code": "WAT",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/11.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2759,
+            "name": "Wealdstone FC",
+            "short_code": "WEA",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/3023.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2544,
+            "name": "West Bromwich Albion",
+            "short_code": "WBA",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/272.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2888,
+            "name": "West Ham United",
+            "short_code": "WES",
+            "league_id": 0est Ham Utd (R)","logo": "https: //cdn.sportdataapi.com/images/soccer/teams/100/6213.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 12401,
+            "name": "West Ham United",
+            "short_code": "WHU",
+            "league_id": 0est Ham","logo": "https: //cdn.sportdataapi.com/images/soccer/teams/100/3.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2976,
+            "name": "West Ham United Lfc (W)",
+            "short_code": "WHU",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/9336.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2771,
+            "name": "Weston Super Mare FC",
+            "short_code": "WSM",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/7189.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2750,
+            "name": "Weymouth FC",
+            "short_code": "WEY",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/3017.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2719,
+            "name": "Whitby Town",
+            "short_code": "WHI",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/6125.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2768,
+            "name": "Whitehawk FC",
+            "short_code": "WHI",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/7129.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2529,
+            "name": "Wigan Athletic",
+            "short_code": "WIG",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/257.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2733,
+            "name": "Wingate & Finchley FC",
+            "short_code": "WFI",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/6241.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2720,
+            "name": "Witton Albion",
+            "short_code": "WIT",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/6126.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2667,
+            "name": "Woking FC",
+            "short_code": "WOK",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/3007.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 850,
+            "name": "Wolverhampton Wanderers",
+            "short_code": "WOL",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/16.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 10591,
+            "name": "Worcester City",
+            "short_code": "WOR",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/9835.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2765,
+            "name": "Workington AFC",
+            "short_code": "WOR",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/7451.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 10465,
+            "name": "Worksop Town",
+            "short_code": "WOR",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/9841.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2739,
+            "name": "Worthing FC",
+            "short_code": "WOR",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/6246.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2620,
+            "name": "Wycombe Wanderers",
+            "short_code": "WYW",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/286.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2663,
+            "name": "Yeovil Town",
+            "short_code": "YEO",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/305.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2957,
+            "name": "Yeovil Town (W)",
+            "short_code": "YEO",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/9323.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        },
+        {
+            "team_id": 2675,
+            "name": "York City FC",
+            "short_code": "YOR",
+            "league_id": 0,
+            "logo": "https://cdn.sportdataapi.com/images/soccer/teams/100/335.png",
+            "country": {
+                "country_id": 42,
+                "name": "England",
+                "country_code": "en",
+                "continent": "Europe"
+            }
+        }
+    ]
+}

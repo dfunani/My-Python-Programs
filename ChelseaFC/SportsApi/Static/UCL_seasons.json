@@ -1,0 +1,53 @@
+{
+	"query": {
+		"apikey": "85c23410-5146-11ed-9047-d9c68d49006d",
+		"league_id": "281"
+	},
+	"data": [
+		{
+			"season_id": 1243,
+			"name": "20\/21",
+			"is_current": 0,
+			"country_id": 4,
+			"league_id": 281,
+			"start_date": "2020-08-08",
+			"end_date": "2021-05-29"
+		},
+		{
+			"season_id": 1245,
+			"name": "19\/20",
+			"is_current": 0,
+			"country_id": 4,
+			"league_id": 281,
+			"start_date": "2019-06-25",
+			"end_date": "2020-08-24"
+		},
+		{
+			"season_id": 1247,
+			"name": "18\/19",
+			"is_current": 0,
+			"country_id": 4,
+			"league_id": 281,
+			"start_date": "2018-06-26",
+			"end_date": "2019-06-02"
+		},
+		{
+			"season_id": 1959,
+			"name": "21\/22",
+			"is_current": 0,
+			"country_id": 4,
+			"league_id": 281,
+			"start_date": "2021-06-22",
+			"end_date": "2022-05-28"
+		},
+		{
+			"season_id": 3182,
+			"name": "22\/23",
+			"is_current": 1,
+			"country_id": 4,
+			"league_id": 281,
+			"start_date": "2022-06-21",
+			"end_date": "2023-06-10"
+		}
+	]
+}

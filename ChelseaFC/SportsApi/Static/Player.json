@@ -1,0 +1,21 @@
+{
+	"query": {
+		"apikey": "85c23410-5146-11ed-9047-d9c68d49006d"
+	},
+	"data": {
+		"player_id": 580,
+		"firstname": "Cyril Thato",
+		"lastname": "Lingwati",
+		"birthday": "1992-06-11",
+		"age": 30,
+		"weight": null,
+		"height": 184,
+		"img": "https:\/\/cdn.sportdataapi.com\/images\/soccer\/players\/50\/18658.png",
+		"country": {
+			"country_id": 112,
+			"name": "South Africa",
+			"country_code": "za",
+			"continent": "Africa"
+		}
+	}
+}

@@ -1,0 +1,37 @@
+Setup environment
+	pip install virtualenv
+	./env/Scripts/Activate.ps1
+	
+Configs
+	pip install python decouple
+	create .env file in root
+	.env
+		key = value
+	settings.py
+		from decouple import config
+		var = config("key")
+
+Database Management
+SQLAlchemy
+	pip install sqlalchemy, psycopg2
+		Create DB in postgres or db of choice
+		create models folder in project root
+			from sqlalchemy import create_engine
+			create_engine(dialect+driver://username:password@host:port/database)
+		Declare models (using declarative base)
+			from sqlalchmey.orm import declarative_base
+			base = declarative_base()
+			
+			class table(base):
+				column_name = Column(type(), 
+		
+Migrations of DB with Alembic
+	alembic init alembic
+	alembic revision --autogenerate -m "Added account table"
+	alembic upgrade head
+	env.py
+		from models import base
+			config.set_main_option('sqlalchemy.url', dbConnectionString)
+			target_base = base.metadata
+	alembic.init
+		sqlalchemy.url = dbconnection

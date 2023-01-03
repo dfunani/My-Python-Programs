@@ -1,0 +1,3968 @@
+{
+	"query": {
+		"apikey": "85c23410-5146-11ed-9047-d9c68d49006d",
+		"season_id": "1959"
+	},
+	"data": [
+		{
+			"pos": 1,
+			"player": {
+				"player_id": 19779,
+				"player_name": "Karim Benzema"
+			},
+			"team": {
+				"team_id": 6402,
+				"team_name": "Real Madrid"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 10,
+			"minutes_played": 913,
+			"substituted_in": null,
+			"goals": {
+				"overall": 14,
+				"home": 7,
+				"away": 7
+			},
+			"penalties": 2
+		},
+		{
+			"pos": 2,
+			"player": {
+				"player_id": 4934,
+				"player_name": "Robert Lewandowski"
+			},
+			"team": {
+				"team_id": 4066,
+				"team_name": "FC Bayern Munich"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 10,
+			"minutes_played": 876,
+			"substituted_in": null,
+			"goals": {
+				"overall": 13,
+				"home": 9,
+				"away": 4
+			},
+			"penalties": 3
+		},
+		{
+			"pos": 3,
+			"player": {
+				"player_id": 2853,
+				"player_name": "Sebastian Haller"
+			},
+			"team": {
+				"team_id": 5324,
+				"team_name": "Ajax Amsterdam"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 8,
+			"minutes_played": 668,
+			"substituted_in": 1,
+			"goals": {
+				"overall": 11,
+				"home": 3,
+				"away": 8
+			},
+			"penalties": 1
+		},
+		{
+			"pos": 4,
+			"player": {
+				"player_id": 10,
+				"player_name": "Mohamed Salah Hamed Mahrous Ghaly"
+			},
+			"team": {
+				"team_id": 2509,
+				"team_name": "Liverpool FC"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 11,
+			"minutes_played": 830,
+			"substituted_in": 1,
+			"goals": {
+				"overall": 8,
+				"home": 2,
+				"away": 6
+			},
+			"penalties": 1
+		},
+		{
+			"pos": 5,
+			"player": {
+				"player_id": 4992,
+				"player_name": "Christopher Nkunku"
+			},
+			"team": {
+				"team_id": 3489,
+				"team_name": "RB Leipzig"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 6,
+			"minutes_played": 532,
+			"substituted_in": null,
+			"goals": {
+				"overall": 7,
+				"home": 2,
+				"away": 5
+			},
+			"penalties": null
+		},
+		{
+			"pos": 6,
+			"player": {
+				"player_id": 142,
+				"player_name": "Riyad Karim Mahrez"
+			},
+			"team": {
+				"team_id": 12400,
+				"team_name": "Manchester City"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 11,
+			"minutes_played": 901,
+			"substituted_in": 1,
+			"goals": {
+				"overall": 6,
+				"home": 2,
+				"away": 4
+			},
+			"penalties": 2
+		},
+		{
+			"pos": 7,
+			"player": {
+				"player_id": 11482,
+				"player_name": "Leroy Sane"
+			},
+			"team": {
+				"team_id": 4066,
+				"team_name": "FC Bayern Munich"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 10,
+			"minutes_played": 799,
+			"substituted_in": 1,
+			"goals": {
+				"overall": 6,
+				"home": 4,
+				"away": 2
+			},
+			"penalties": null
+		},
+		{
+			"pos": 8,
+			"player": {
+				"player_id": 4525,
+				"player_name": "Kylian Sanmi Mbappe Lottin"
+			},
+			"team": {
+				"team_id": 3651,
+				"team_name": "Paris Saint-Germain"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 8,
+			"minutes_played": 674,
+			"substituted_in": null,
+			"goals": {
+				"overall": 6,
+				"home": 4,
+				"away": 2
+			},
+			"penalties": null
+		},
+		{
+			"pos": 9,
+			"player": {
+				"player_id": 3505,
+				"player_name": "Arnaut Danjuma"
+			},
+			"team": {
+				"team_id": 6534,
+				"team_name": "CF Villarreal"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 11,
+			"minutes_played": 909,
+			"substituted_in": 1,
+			"goals": {
+				"overall": 6,
+				"home": 3,
+				"away": 3
+			},
+			"penalties": 1
+		},
+		{
+			"pos": 10,
+			"player": {
+				"player_id": 7568,
+				"player_name": "Darwin Gabriel Nunez Ribeiro"
+			},
+			"team": {
+				"team_id": 5800,
+				"team_name": "Sl Benfica"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 10,
+			"minutes_played": 615,
+			"substituted_in": 4,
+			"goals": {
+				"overall": 6,
+				"home": 3,
+				"away": 3
+			},
+			"penalties": 1
+		},
+		{
+			"pos": 11,
+			"player": {
+				"player_id": 5575,
+				"player_name": "Cristiano Ronaldo Dos Santos Aveiro"
+			},
+			"team": {
+				"team_id": 2523,
+				"team_name": "Manchester United"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 7,
+			"minutes_played": 612,
+			"substituted_in": null,
+			"goals": {
+				"overall": 6,
+				"home": 2,
+				"away": 4
+			},
+			"penalties": null
+		},
+		{
+			"pos": 12,
+			"player": {
+				"player_id": 3308,
+				"player_name": "Roberto Firmino Barbosa de Oliveira"
+			},
+			"team": {
+				"team_id": 2509,
+				"team_name": "Liverpool FC"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 6,
+			"minutes_played": 311,
+			"substituted_in": 4,
+			"goals": {
+				"overall": 5,
+				"home": 2,
+				"away": 3
+			},
+			"penalties": null
+		},
+		{
+			"pos": 13,
+			"player": {
+				"player_id": 20954,
+				"player_name": "Lionel Andres Messi"
+			},
+			"team": {
+				"team_id": 3651,
+				"team_name": "Paris Saint-Germain"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 7,
+			"minutes_played": 630,
+			"substituted_in": null,
+			"goals": {
+				"overall": 5,
+				"home": 5,
+				"away": 0
+			},
+			"penalties": 2
+		},
+		{
+			"pos": 14,
+			"player": {
+				"player_id": 4923,
+				"player_name": "Timo Werner"
+			},
+			"team": {
+				"team_id": 2524,
+				"team_name": "Chelsea FC"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 5,
+			"minutes_played": 245,
+			"substituted_in": 2,
+			"goals": {
+				"overall": 4,
+				"home": 1,
+				"away": 3
+			},
+			"penalties": null
+		},
+		{
+			"pos": 15,
+			"player": {
+				"player_id": 2862,
+				"player_name": "Gabriel Fernando de Jesus"
+			},
+			"team": {
+				"team_id": 12400,
+				"team_name": "Manchester City"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 7,
+			"minutes_played": 273,
+			"substituted_in": 5,
+			"goals": {
+				"overall": 4,
+				"home": 4,
+				"away": 0
+			},
+			"penalties": null
+		},
+		{
+			"pos": 16,
+			"player": {
+				"player_id": 4932,
+				"player_name": "Thomas Muller"
+			},
+			"team": {
+				"team_id": 4066,
+				"team_name": "FC Bayern Munich"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 10,
+			"minutes_played": 779,
+			"substituted_in": 1,
+			"goals": {
+				"overall": 4,
+				"home": 3,
+				"away": 1
+			},
+			"penalties": null
+		},
+		{
+			"pos": 17,
+			"player": {
+				"player_id": 280,
+				"player_name": "Sadio Mane"
+			},
+			"team": {
+				"team_id": 2509,
+				"team_name": "Liverpool FC"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 11,
+			"minutes_played": 645,
+			"substituted_in": 2,
+			"goals": {
+				"overall": 4,
+				"home": 2,
+				"away": 2
+			},
+			"penalties": null
+		},
+		{
+			"pos": 18,
+			"player": {
+				"player_id": 12056,
+				"player_name": "Antoine Griezmann"
+			},
+			"team": {
+				"team_id": 6406,
+				"team_name": "Atletico Madrid"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 9,
+			"minutes_played": 519,
+			"substituted_in": 3,
+			"goals": {
+				"overall": 4,
+				"home": 2,
+				"away": 2
+			},
+			"penalties": null
+		},
+		{
+			"pos": 19,
+			"player": {
+				"player_id": 17719,
+				"player_name": "Pedro Antonio Pereira Goncalves"
+			},
+			"team": {
+				"team_id": 5801,
+				"team_name": "Sporting CP"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 5,
+			"minutes_played": 332,
+			"substituted_in": 1,
+			"goals": {
+				"overall": 4,
+				"home": 4,
+				"away": 0
+			},
+			"penalties": 1
+		},
+		{
+			"pos": 20,
+			"player": {
+				"player_id": 8172,
+				"player_name": "Burak Yilmaz"
+			},
+			"team": {
+				"team_id": 3790,
+				"team_name": "LOSC Lille"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 7,
+			"minutes_played": 530,
+			"substituted_in": 1,
+			"goals": {
+				"overall": 3,
+				"home": 1,
+				"away": 2
+			},
+			"penalties": 1
+		},
+		{
+			"pos": 21,
+			"player": {
+				"player_id": 2863,
+				"player_name": "Raheem Shaquille Sterling"
+			},
+			"team": {
+				"team_id": 12400,
+				"team_name": "Manchester City"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 11,
+			"minutes_played": 560,
+			"substituted_in": 6,
+			"goals": {
+				"overall": 3,
+				"home": 2,
+				"away": 1
+			},
+			"penalties": null
+		},
+		{
+			"pos": 22,
+			"player": {
+				"player_id": 4931,
+				"player_name": "Serge David Gnabry"
+			},
+			"team": {
+				"team_id": 4066,
+				"team_name": "FC Bayern Munich"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 8,
+			"minutes_played": 391,
+			"substituted_in": 3,
+			"goals": {
+				"overall": 3,
+				"home": 3,
+				"away": 0
+			},
+			"penalties": null
+		},
+		{
+			"pos": 23,
+			"player": {
+				"player_id": 19943,
+				"player_name": "Vinicius Jose Paixao De Oliveira Junior"
+			},
+			"team": {
+				"team_id": 6402,
+				"team_name": "Real Madrid"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 11,
+			"minutes_played": 996,
+			"substituted_in": null,
+			"goals": {
+				"overall": 3,
+				"home": 0,
+				"away": 3
+			},
+			"penalties": null
+		},
+		{
+			"pos": 24,
+			"player": {
+				"player_id": 6195,
+				"player_name": "Luis Fernando Diaz Marulanda"
+			},
+			"team": {
+				"team_id": 2509,
+				"team_name": "Liverpool FC"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 11,
+			"minutes_played": 799,
+			"substituted_in": 2,
+			"goals": {
+				"overall": 3,
+				"home": 1,
+				"away": 2
+			},
+			"penalties": null
+		},
+		{
+			"pos": 25,
+			"player": {
+				"player_id": 23638,
+				"player_name": "Rodrygo Silva de Goes"
+			},
+			"team": {
+				"team_id": 6402,
+				"team_name": "Real Madrid"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 9,
+			"minutes_played": 451,
+			"substituted_in": 5,
+			"goals": {
+				"overall": 3,
+				"home": 1,
+				"away": 2
+			},
+			"penalties": null
+		},
+		{
+			"pos": 26,
+			"player": {
+				"player_id": 11380,
+				"player_name": "Philip Walter Foden"
+			},
+			"team": {
+				"team_id": 12400,
+				"team_name": "Manchester City"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 10,
+			"minutes_played": 537,
+			"substituted_in": 3,
+			"goals": {
+				"overall": 3,
+				"home": 2,
+				"away": 1
+			},
+			"penalties": null
+		},
+		{
+			"pos": 27,
+			"player": {
+				"player_id": 2033,
+				"player_name": "Roman Yaremchuk"
+			},
+			"team": {
+				"team_id": 5800,
+				"team_name": "Sl Benfica"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 10,
+			"minutes_played": 515,
+			"substituted_in": 4,
+			"goals": {
+				"overall": 3,
+				"home": 2,
+				"away": 1
+			},
+			"penalties": null
+		},
+		{
+			"pos": 28,
+			"player": {
+				"player_id": 4849,
+				"player_name": "Kai Havertz"
+			},
+			"team": {
+				"team_id": 2524,
+				"team_name": "Chelsea FC"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 9,
+			"minutes_played": 672,
+			"substituted_in": 3,
+			"goals": {
+				"overall": 3,
+				"home": 3,
+				"away": 0
+			},
+			"penalties": null
+		},
+		{
+			"pos": 29,
+			"player": {
+				"player_id": 3091,
+				"player_name": "Bernardo Mota Veiga de Carvalho Silva"
+			},
+			"team": {
+				"team_id": 12400,
+				"team_name": "Manchester City"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 10,
+			"minutes_played": 761,
+			"substituted_in": null,
+			"goals": {
+				"overall": 3,
+				"home": 1,
+				"away": 2
+			},
+			"penalties": null
+		},
+		{
+			"pos": 30,
+			"player": {
+				"player_id": 1882,
+				"player_name": "Hans Vanaken"
+			},
+			"team": {
+				"team_id": 12409,
+				"team_name": "Club Brugge"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 6,
+			"minutes_played": 540,
+			"substituted_in": null,
+			"goals": {
+				"overall": 3,
+				"home": 2,
+				"away": 1
+			},
+			"penalties": null
+		},
+		{
+			"pos": 31,
+			"player": {
+				"player_id": 4878,
+				"player_name": "Andre Miguel Valente Silva"
+			},
+			"team": {
+				"team_id": 3489,
+				"team_name": "RB Leipzig"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 6,
+			"minutes_played": 410,
+			"substituted_in": 1,
+			"goals": {
+				"overall": 3,
+				"home": 1,
+				"away": 2
+			},
+			"penalties": null
+		},
+		{
+			"pos": 32,
+			"player": {
+				"player_id": 4838,
+				"player_name": "Marco Reus"
+			},
+			"team": {
+				"team_id": 4074,
+				"team_name": "Borussia Dortmund"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 6,
+			"minutes_played": 499,
+			"substituted_in": null,
+			"goals": {
+				"overall": 3,
+				"home": 3,
+				"away": 0
+			},
+			"penalties": 2
+		},
+		{
+			"pos": 33,
+			"player": {
+				"player_id": 5821,
+				"player_name": "Steven Berghuis"
+			},
+			"team": {
+				"team_id": 5324,
+				"team_name": "Ajax Amsterdam"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 8,
+			"minutes_played": 630,
+			"substituted_in": null,
+			"goals": {
+				"overall": 3,
+				"home": 2,
+				"away": 1
+			},
+			"penalties": null
+		},
+		{
+			"pos": 34,
+			"player": {
+				"player_id": 18925,
+				"player_name": "Joao Paulo Dias Fernandes"
+			},
+			"team": {
+				"team_id": 5801,
+				"team_name": "Sporting CP"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 8,
+			"minutes_played": 584,
+			"substituted_in": 1,
+			"goals": {
+				"overall": 3,
+				"home": 2,
+				"away": 1
+			},
+			"penalties": null
+		},
+		{
+			"pos": 35,
+			"player": {
+				"player_id": 22117,
+				"player_name": "Donyell Malen"
+			},
+			"team": {
+				"team_id": 4074,
+				"team_name": "Borussia Dortmund"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 6,
+			"minutes_played": 391,
+			"substituted_in": 1,
+			"goals": {
+				"overall": 3,
+				"home": 2,
+				"away": 1
+			},
+			"penalties": null
+		},
+		{
+			"pos": 36,
+			"player": {
+				"player_id": 1671,
+				"player_name": "Erling Braut Haaland"
+			},
+			"team": {
+				"team_id": 4074,
+				"team_name": "Borussia Dortmund"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 3,
+			"minutes_played": 203,
+			"substituted_in": 1,
+			"goals": {
+				"overall": 3,
+				"home": 2,
+				"away": 1
+			},
+			"penalties": null
+		},
+		{
+			"pos": 37,
+			"player": {
+				"player_id": 5449,
+				"player_name": "Edin Dzeko"
+			},
+			"team": {
+				"team_id": 4810,
+				"team_name": "Inter Milano"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 7,
+			"minutes_played": 541,
+			"substituted_in": null,
+			"goals": {
+				"overall": 3,
+				"home": 3,
+				"away": 0
+			},
+			"penalties": null
+		},
+		{
+			"pos": 38,
+			"player": {
+				"player_id": 5551,
+				"player_name": "Duvan Esteban Zapata  Banguero"
+			},
+			"team": {
+				"team_id": 3511,
+				"team_name": "Atalanta Bergamasca Calcio"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 6,
+			"minutes_played": 464,
+			"substituted_in": 1,
+			"goals": {
+				"overall": 3,
+				"home": 2,
+				"away": 1
+			},
+			"penalties": null
+		},
+		{
+			"pos": 39,
+			"player": {
+				"player_id": 1879,
+				"player_name": "Noah Arinze Okafor"
+			},
+			"team": {
+				"team_id": 1676,
+				"team_name": "FC Salzburg"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 6,
+			"minutes_played": 345,
+			"substituted_in": 1,
+			"goals": {
+				"overall": 3,
+				"home": 3,
+				"away": 0
+			},
+			"penalties": null
+		},
+		{
+			"pos": 40,
+			"player": {
+				"player_id": 24379,
+				"player_name": "Karim Adeyemi"
+			},
+			"team": {
+				"team_id": 1676,
+				"team_name": "FC Salzburg"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 8,
+			"minutes_played": 609,
+			"substituted_in": null,
+			"goals": {
+				"overall": 3,
+				"home": 3,
+				"away": 0
+			},
+			"penalties": 2
+		},
+		{
+			"pos": 41,
+			"player": {
+				"player_id": 1920,
+				"player_name": "Jonathan Christian David"
+			},
+			"team": {
+				"team_id": 3790,
+				"team_name": "LOSC Lille"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 8,
+			"minutes_played": 681,
+			"substituted_in": null,
+			"goals": {
+				"overall": 3,
+				"home": 1,
+				"away": 2
+			},
+			"penalties": 1
+		},
+		{
+			"pos": 42,
+			"player": {
+				"player_id": 5666,
+				"player_name": "Paulo Bruno Dybala"
+			},
+			"team": {
+				"team_id": 4794,
+				"team_name": "Juventus Turin"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 5,
+			"minutes_played": 254,
+			"substituted_in": 2,
+			"goals": {
+				"overall": 3,
+				"home": 2,
+				"away": 1
+			},
+			"penalties": 2
+		},
+		{
+			"pos": 43,
+			"player": {
+				"player_id": 5811,
+				"player_name": "Dusan Tadic"
+			},
+			"team": {
+				"team_id": 5324,
+				"team_name": "Ajax Amsterdam"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 7,
+			"minutes_played": 630,
+			"substituted_in": null,
+			"goals": {
+				"overall": 2,
+				"home": 0,
+				"away": 2
+			},
+			"penalties": null
+		},
+		{
+			"pos": 44,
+			"player": {
+				"player_id": 12306,
+				"player_name": "Gerard Moreno Balaguero"
+			},
+			"team": {
+				"team_id": 6534,
+				"team_name": "CF Villarreal"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 6,
+			"minutes_played": 457,
+			"substituted_in": 1,
+			"goals": {
+				"overall": 2,
+				"home": 0,
+				"away": 2
+			},
+			"penalties": 1
+		},
+		{
+			"pos": 45,
+			"player": {
+				"player_id": 4933,
+				"player_name": "Kingsley Coman"
+			},
+			"team": {
+				"team_id": 4066,
+				"team_name": "FC Bayern Munich"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 9,
+			"minutes_played": 632,
+			"substituted_in": 1,
+			"goals": {
+				"overall": 2,
+				"home": 0,
+				"away": 2
+			},
+			"penalties": null
+		},
+		{
+			"pos": 46,
+			"player": {
+				"player_id": 53,
+				"player_name": "Samuel Chimerenka Chukwueze"
+			},
+			"team": {
+				"team_id": 6534,
+				"team_name": "CF Villarreal"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 8,
+			"minutes_played": 250,
+			"substituted_in": 6,
+			"goals": {
+				"overall": 2,
+				"home": 0,
+				"away": 2
+			},
+			"penalties": null
+		},
+		{
+			"pos": 47,
+			"player": {
+				"player_id": 2859,
+				"player_name": "Kevin De Bruyne"
+			},
+			"team": {
+				"team_id": 12400,
+				"team_name": "Manchester City"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 9,
+			"minutes_played": 664,
+			"substituted_in": 1,
+			"goals": {
+				"overall": 2,
+				"home": 2,
+				"away": 0
+			},
+			"penalties": null
+		},
+		{
+			"pos": 48,
+			"player": {
+				"player_id": 3512,
+				"player_name": "Christian Mate Pulisic"
+			},
+			"team": {
+				"team_id": 2524,
+				"team_name": "Chelsea FC"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 7,
+			"minutes_played": 368,
+			"substituted_in": 3,
+			"goals": {
+				"overall": 2,
+				"home": 1,
+				"away": 1
+			},
+			"penalties": null
+		},
+		{
+			"pos": 49,
+			"player": {
+				"player_id": 4915,
+				"player_name": "Ibrahima Konate"
+			},
+			"team": {
+				"team_id": 2509,
+				"team_name": "Liverpool FC"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 6,
+			"minutes_played": 540,
+			"substituted_in": null,
+			"goals": {
+				"overall": 2,
+				"home": 1,
+				"away": 1
+			},
+			"penalties": null
+		},
+		{
+			"pos": 50,
+			"player": {
+				"player_id": 2924,
+				"player_name": "Georginio Wijnaldum"
+			},
+			"team": {
+				"team_id": 3651,
+				"team_name": "Paris Saint-Germain"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 5,
+			"minutes_played": 261,
+			"substituted_in": 2,
+			"goals": {
+				"overall": 2,
+				"home": 0,
+				"away": 2
+			},
+			"penalties": null
+		},
+		{
+			"pos": 51,
+			"player": {
+				"player_id": 4920,
+				"player_name": "Emil Peter Forsberg"
+			},
+			"team": {
+				"team_id": 3489,
+				"team_name": "RB Leipzig"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 6,
+			"minutes_played": 387,
+			"substituted_in": 1,
+			"goals": {
+				"overall": 2,
+				"home": 0,
+				"away": 2
+			},
+			"penalties": 1
+		},
+		{
+			"pos": 52,
+			"player": {
+				"player_id": 1888,
+				"player_name": "Mats Rits"
+			},
+			"team": {
+				"team_id": 12409,
+				"team_name": "Club Brugge"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 6,
+			"minutes_played": 418,
+			"substituted_in": 1,
+			"goals": {
+				"overall": 2,
+				"home": 0,
+				"away": 2
+			},
+			"penalties": null
+		},
+		{
+			"pos": 53,
+			"player": {
+				"player_id": 3434,
+				"player_name": "Joao Pedro Cavaco Cancelo"
+			},
+			"team": {
+				"team_id": 12400,
+				"team_name": "Manchester City"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 8,
+			"minutes_played": 720,
+			"substituted_in": null,
+			"goals": {
+				"overall": 2,
+				"home": 1,
+				"away": 1
+			},
+			"penalties": null
+		},
+		{
+			"pos": 54,
+			"player": {
+				"player_id": 1670,
+				"player_name": "Dominik Szoboszlai"
+			},
+			"team": {
+				"team_id": 3489,
+				"team_name": "RB Leipzig"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 4,
+			"minutes_played": 208,
+			"substituted_in": 2,
+			"goals": {
+				"overall": 2,
+				"home": 2,
+				"away": 0
+			},
+			"penalties": 1
+		},
+		{
+			"pos": 55,
+			"player": {
+				"player_id": 23439,
+				"player_name": "Sebastian Coates Nion"
+			},
+			"team": {
+				"team_id": 5801,
+				"team_name": "Sporting CP"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 6,
+			"minutes_played": 540,
+			"substituted_in": null,
+			"goals": {
+				"overall": 2,
+				"home": 0,
+				"away": 2
+			},
+			"penalties": null
+		},
+		{
+			"pos": 56,
+			"player": {
+				"player_id": 4313,
+				"player_name": "Pablo Sarabia Garcia"
+			},
+			"team": {
+				"team_id": 5801,
+				"team_name": "Sporting CP"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 8,
+			"minutes_played": 511,
+			"substituted_in": 2,
+			"goals": {
+				"overall": 2,
+				"home": 1,
+				"away": 1
+			},
+			"penalties": 1
+		},
+		{
+			"pos": 57,
+			"player": {
+				"player_id": 15603,
+				"player_name": "Antony Mateus dos Santos"
+			},
+			"team": {
+				"team_id": 5324,
+				"team_name": "Ajax Amsterdam"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 7,
+			"minutes_played": 577,
+			"substituted_in": null,
+			"goals": {
+				"overall": 2,
+				"home": 2,
+				"away": 0
+			},
+			"penalties": null
+		},
+		{
+			"pos": 58,
+			"player": {
+				"player_id": 11481,
+				"player_name": "Toni Kroos"
+			},
+			"team": {
+				"team_id": 6402,
+				"team_name": "Real Madrid"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 10,
+			"minutes_played": 743,
+			"substituted_in": 1,
+			"goals": {
+				"overall": 2,
+				"home": 1,
+				"away": 1
+			},
+			"penalties": null
+		},
+		{
+			"pos": 59,
+			"player": {
+				"player_id": 35769,
+				"player_name": "Sebastien Thill"
+			},
+			"team": {
+				"team_id": 5278,
+				"team_name": "FC Sheriff Tiraspol"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 6,
+			"minutes_played": 540,
+			"substituted_in": null,
+			"goals": {
+				"overall": 2,
+				"home": 0,
+				"away": 2
+			},
+			"penalties": null
+		},
+		{
+			"pos": 60,
+			"player": {
+				"player_id": 4460,
+				"player_name": "Adama Traore"
+			},
+			"team": {
+				"team_id": 5278,
+				"team_name": "FC Sheriff Tiraspol"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 6,
+			"minutes_played": 531,
+			"substituted_in": null,
+			"goals": {
+				"overall": 2,
+				"home": 2,
+				"away": 0
+			},
+			"penalties": null
+		},
+		{
+			"pos": 61,
+			"player": {
+				"player_id": 20847,
+				"player_name": "Fernando Dos Santos Pedro"
+			},
+			"team": {
+				"team_id": 7440,
+				"team_name": "FC Shakhtar Donetsk"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 5,
+			"minutes_played": 351,
+			"substituted_in": null,
+			"goals": {
+				"overall": 2,
+				"home": 1,
+				"away": 1
+			},
+			"penalties": null
+		},
+		{
+			"pos": 62,
+			"player": {
+				"player_id": 3134,
+				"player_name": "Etienne Capoue"
+			},
+			"team": {
+				"team_id": 6534,
+				"team_name": "CF Villarreal"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 11,
+			"minutes_played": 960,
+			"substituted_in": null,
+			"goals": {
+				"overall": 2,
+				"home": 1,
+				"away": 1
+			},
+			"penalties": null
+		},
+		{
+			"pos": 63,
+			"player": {
+				"player_id": 4221,
+				"player_name": "Theoson Jordan Siebatcheu"
+			},
+			"team": {
+				"team_id": 7100,
+				"team_name": "BSC Young Boys"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 6,
+			"minutes_played": 341,
+			"substituted_in": 2,
+			"goals": {
+				"overall": 2,
+				"home": 2,
+				"away": 0
+			},
+			"penalties": null
+		},
+		{
+			"pos": 64,
+			"player": {
+				"player_id": 18595,
+				"player_name": "Ivan Rakitic"
+			},
+			"team": {
+				"team_id": 3513,
+				"team_name": "FC Sevilla"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 5,
+			"minutes_played": 276,
+			"substituted_in": 2,
+			"goals": {
+				"overall": 2,
+				"home": 1,
+				"away": 1
+			},
+			"penalties": 2
+		},
+		{
+			"pos": 65,
+			"player": {
+				"player_id": 5004,
+				"player_name": "Renato Steffen"
+			},
+			"team": {
+				"team_id": 4069,
+				"team_name": "VfL Wolfsburg"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 5,
+			"minutes_played": 257,
+			"substituted_in": 2,
+			"goals": {
+				"overall": 2,
+				"home": 2,
+				"away": 0
+			},
+			"penalties": null
+		},
+		{
+			"pos": 66,
+			"player": {
+				"player_id": 5078,
+				"player_name": "Lukas Nmecha"
+			},
+			"team": {
+				"team_id": 4069,
+				"team_name": "VfL Wolfsburg"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 5,
+			"minutes_played": 322,
+			"substituted_in": 2,
+			"goals": {
+				"overall": 2,
+				"home": 1,
+				"away": 1
+			},
+			"penalties": null
+		},
+		{
+			"pos": 67,
+			"player": {
+				"player_id": 5416,
+				"player_name": "Romelu Menama Lukaku Bolingoli"
+			},
+			"team": {
+				"team_id": 2524,
+				"team_name": "Chelsea FC"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 6,
+			"minutes_played": 320,
+			"substituted_in": 2,
+			"goals": {
+				"overall": 2,
+				"home": 1,
+				"away": 1
+			},
+			"penalties": null
+		},
+		{
+			"pos": 68,
+			"player": {
+				"player_id": 18232,
+				"player_name": "Alvaro Borja Morata Martin"
+			},
+			"team": {
+				"team_id": 4794,
+				"team_name": "Juventus Turin"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 7,
+			"minutes_played": 523,
+			"substituted_in": 1,
+			"goals": {
+				"overall": 2,
+				"home": 1,
+				"away": 1
+			},
+			"penalties": null
+		},
+		{
+			"pos": 69,
+			"player": {
+				"player_id": 2952,
+				"player_name": "Jorge Luiz Frello Filho"
+			},
+			"team": {
+				"team_id": 2524,
+				"team_name": "Chelsea FC"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 8,
+			"minutes_played": 561,
+			"substituted_in": 1,
+			"goals": {
+				"overall": 2,
+				"home": 2,
+				"away": 0
+			},
+			"penalties": 2
+		},
+		{
+			"pos": 70,
+			"player": {
+				"player_id": 853,
+				"player_name": "Sardar Azmoun"
+			},
+			"team": {
+				"team_id": 2524,
+				"team_name": "Chelsea FC"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 5,
+			"minutes_played": 303,
+			"substituted_in": 2,
+			"goals": {
+				"overall": 2,
+				"home": 1,
+				"away": 1
+			},
+			"penalties": null
+		},
+		{
+			"pos": 71,
+			"player": {
+				"player_id": 32689,
+				"player_name": " Claudinho"
+			},
+			"team": {
+				"team_id": 6183,
+				"team_name": "FC Zenit St Petersburg"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 6,
+			"minutes_played": 463,
+			"substituted_in": null,
+			"goals": {
+				"overall": 2,
+				"home": 2,
+				"away": 0
+			},
+			"penalties": null
+		},
+		{
+			"pos": 72,
+			"player": {
+				"player_id": 5482,
+				"player_name": "Federico Chiesa"
+			},
+			"team": {
+				"team_id": 4794,
+				"team_name": "Juventus Turin"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 4,
+			"minutes_played": 337,
+			"substituted_in": null,
+			"goals": {
+				"overall": 2,
+				"home": 2,
+				"away": 0
+			},
+			"penalties": null
+		},
+		{
+			"pos": 73,
+			"player": {
+				"player_id": 2950,
+				"player_name": "Cesar Azpilicueta Tanco"
+			},
+			"team": {
+				"team_id": 2524,
+				"team_name": "Chelsea FC"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 9,
+			"minutes_played": 678,
+			"substituted_in": 1,
+			"goals": {
+				"overall": 1,
+				"home": 0,
+				"away": 1
+			},
+			"penalties": null
+		},
+		{
+			"pos": 74,
+			"player": {
+				"player_id": 22824,
+				"player_name": "Daniel Parejo Munoz"
+			},
+			"team": {
+				"team_id": 6534,
+				"team_name": "CF Villarreal"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 11,
+			"minutes_played": 968,
+			"substituted_in": null,
+			"goals": {
+				"overall": 1,
+				"home": 1,
+				"away": 0
+			},
+			"penalties": null
+		},
+		{
+			"pos": 75,
+			"player": {
+				"player_id": 2944,
+				"player_name": "Antonio Rudiger"
+			},
+			"team": {
+				"team_id": 2524,
+				"team_name": "Chelsea FC"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 9,
+			"minutes_played": 840,
+			"substituted_in": null,
+			"goals": {
+				"overall": 1,
+				"home": 0,
+				"away": 1
+			},
+			"penalties": null
+		},
+		{
+			"pos": 76,
+			"player": {
+				"player_id": 5415,
+				"player_name": "Lautaro Javier Martinez"
+			},
+			"team": {
+				"team_id": 4810,
+				"team_name": "Inter Milano"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 8,
+			"minutes_played": 588,
+			"substituted_in": null,
+			"goals": {
+				"overall": 1,
+				"home": 0,
+				"away": 1
+			},
+			"penalties": null
+		},
+		{
+			"pos": 77,
+			"player": {
+				"player_id": 2962,
+				"player_name": "Mason Tony Mount"
+			},
+			"team": {
+				"team_id": 2524,
+				"team_name": "Chelsea FC"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 7,
+			"minutes_played": 539,
+			"substituted_in": 2,
+			"goals": {
+				"overall": 1,
+				"home": 0,
+				"away": 1
+			},
+			"penalties": null
+		},
+		{
+			"pos": 78,
+			"player": {
+				"player_id": 11485,
+				"player_name": "Pau Francisco Torres"
+			},
+			"team": {
+				"team_id": 6534,
+				"team_name": "CF Villarreal"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 11,
+			"minutes_played": 990,
+			"substituted_in": null,
+			"goals": {
+				"overall": 1,
+				"home": 0,
+				"away": 1
+			},
+			"penalties": null
+		},
+		{
+			"pos": 79,
+			"player": {
+				"player_id": 21573,
+				"player_name": "Dusan Vlahovic"
+			},
+			"team": {
+				"team_id": 4794,
+				"team_name": "Juventus Turin"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 2,
+			"minutes_played": 180,
+			"substituted_in": null,
+			"goals": {
+				"overall": 1,
+				"home": 0,
+				"away": 1
+			},
+			"penalties": null
+		},
+		{
+			"pos": 80,
+			"player": {
+				"player_id": 16457,
+				"player_name": "Renan Augusto Lodi dos Santos"
+			},
+			"team": {
+				"team_id": 6406,
+				"team_name": "Atletico Madrid"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 10,
+			"minutes_played": 479,
+			"substituted_in": 6,
+			"goals": {
+				"overall": 1,
+				"home": 0,
+				"away": 1
+			},
+			"penalties": null
+		},
+		{
+			"pos": 81,
+			"player": {
+				"player_id": 12011,
+				"player_name": "Joao Felix Sequeira"
+			},
+			"team": {
+				"team_id": 6406,
+				"team_name": "Atletico Madrid"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 8,
+			"minutes_played": 574,
+			"substituted_in": 1,
+			"goals": {
+				"overall": 1,
+				"home": 1,
+				"away": 0
+			},
+			"penalties": null
+		},
+		{
+			"pos": 82,
+			"player": {
+				"player_id": 1474,
+				"player_name": "Chikwubuike Adamu"
+			},
+			"team": {
+				"team_id": 1676,
+				"team_name": "FC Salzburg"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 8,
+			"minutes_played": 230,
+			"substituted_in": 7,
+			"goals": {
+				"overall": 1,
+				"home": 1,
+				"away": 0
+			},
+			"penalties": null
+		},
+		{
+			"pos": 83,
+			"player": {
+				"player_id": 6418,
+				"player_name": "Goncalo Matias Ramos"
+			},
+			"team": {
+				"team_id": 5800,
+				"team_name": "Sl Benfica"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 7,
+			"minutes_played": 370,
+			"substituted_in": 3,
+			"goals": {
+				"overall": 1,
+				"home": 0,
+				"away": 1
+			},
+			"penalties": null
+		},
+		{
+			"pos": 84,
+			"player": {
+				"player_id": 39174,
+				"player_name": "Anthony Elanga"
+			},
+			"team": {
+				"team_id": 2523,
+				"team_name": "Manchester United"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 3,
+			"minutes_played": 172,
+			"substituted_in": 1,
+			"goals": {
+				"overall": 1,
+				"home": 0,
+				"away": 1
+			},
+			"penalties": null
+		},
+		{
+			"pos": 85,
+			"player": {
+				"player_id": 1603,
+				"player_name": "Maurits Kjaergaard"
+			},
+			"team": {
+				"team_id": 1676,
+				"team_name": "FC Salzburg"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 4,
+			"minutes_played": 37,
+			"substituted_in": 4,
+			"goals": {
+				"overall": 1,
+				"home": 0,
+				"away": 1
+			},
+			"penalties": null
+		},
+		{
+			"pos": 86,
+			"player": {
+				"player_id": 2855,
+				"player_name": "Kyle Andrew Walker"
+			},
+			"team": {
+				"team_id": 12400,
+				"team_name": "Manchester City"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 6,
+			"minutes_played": 506,
+			"substituted_in": null,
+			"goals": {
+				"overall": 1,
+				"home": 0,
+				"away": 1
+			},
+			"penalties": null
+		},
+		{
+			"pos": 87,
+			"player": {
+				"player_id": 4445,
+				"player_name": "Ander Herrera Aguera"
+			},
+			"team": {
+				"team_id": 3651,
+				"team_name": "Paris Saint-Germain"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 6,
+			"minutes_played": 326,
+			"substituted_in": 2,
+			"goals": {
+				"overall": 1,
+				"home": 0,
+				"away": 1
+			},
+			"penalties": null
+		},
+		{
+			"pos": 88,
+			"player": {
+				"player_id": 117,
+				"player_name": "Idrissa Gana Gueye"
+			},
+			"team": {
+				"team_id": 3651,
+				"team_name": "Paris Saint-Germain"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 7,
+			"minutes_played": 402,
+			"substituted_in": 2,
+			"goals": {
+				"overall": 1,
+				"home": 1,
+				"away": 0
+			},
+			"penalties": null
+		},
+		{
+			"pos": 89,
+			"player": {
+				"player_id": 3096,
+				"player_name": "Nathan Benjamin Ake"
+			},
+			"team": {
+				"team_id": 12400,
+				"team_name": "Manchester City"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 6,
+			"minutes_played": 321,
+			"substituted_in": 3,
+			"goals": {
+				"overall": 1,
+				"home": 1,
+				"away": 0
+			},
+			"penalties": null
+		},
+		{
+			"pos": 90,
+			"player": {
+				"player_id": 3172,
+				"player_name": "Jack Grealish"
+			},
+			"team": {
+				"team_id": 12400,
+				"team_name": "Manchester City"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 6,
+			"minutes_played": 419,
+			"substituted_in": 1,
+			"goals": {
+				"overall": 1,
+				"home": 1,
+				"away": 0
+			},
+			"penalties": null
+		},
+		{
+			"pos": 91,
+			"player": {
+				"player_id": 4914,
+				"player_name": "Nordi Mukiele Mulere"
+			},
+			"team": {
+				"team_id": 3489,
+				"team_name": "RB Leipzig"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 6,
+			"minutes_played": 484,
+			"substituted_in": null,
+			"goals": {
+				"overall": 1,
+				"home": 0,
+				"away": 1
+			},
+			"penalties": null
+		},
+		{
+			"pos": 92,
+			"player": {
+				"player_id": 43009,
+				"player_name": "Cole Palmer"
+			},
+			"team": {
+				"team_id": 12400,
+				"team_name": "Manchester City"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 3,
+			"minutes_played": 38,
+			"substituted_in": 3,
+			"goals": {
+				"overall": 1,
+				"home": 0,
+				"away": 1
+			},
+			"penalties": null
+		},
+		{
+			"pos": 93,
+			"player": {
+				"player_id": 24723,
+				"player_name": "Luis Alberto Suarez Diaz"
+			},
+			"team": {
+				"team_id": 6406,
+				"team_name": "Atletico Madrid"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 7,
+			"minutes_played": 347,
+			"substituted_in": 2,
+			"goals": {
+				"overall": 1,
+				"home": 0,
+				"away": 1
+			},
+			"penalties": 1
+		},
+		{
+			"pos": 94,
+			"player": {
+				"player_id": 3307,
+				"player_name": "Jordan Brian Henderson"
+			},
+			"team": {
+				"team_id": 2509,
+				"team_name": "Liverpool FC"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 10,
+			"minutes_played": 578,
+			"substituted_in": 4,
+			"goals": {
+				"overall": 1,
+				"home": 1,
+				"away": 0
+			},
+			"penalties": null
+		},
+		{
+			"pos": 95,
+			"player": {
+				"player_id": 4930,
+				"player_name": "Thiago Alcantara do Nascimento"
+			},
+			"team": {
+				"team_id": 2509,
+				"team_name": "Liverpool FC"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 8,
+			"minutes_played": 447,
+			"substituted_in": 3,
+			"goals": {
+				"overall": 1,
+				"home": 1,
+				"away": 0
+			},
+			"penalties": null
+		},
+		{
+			"pos": 96,
+			"player": {
+				"player_id": 13147,
+				"player_name": "Sergio Miguel Relvas de Oliveira"
+			},
+			"team": {
+				"team_id": 2509,
+				"team_name": "Liverpool FC"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 6,
+			"minutes_played": 299,
+			"substituted_in": 2,
+			"goals": {
+				"overall": 1,
+				"home": 1,
+				"away": 0
+			},
+			"penalties": 1
+		},
+		{
+			"pos": 97,
+			"player": {
+				"player_id": 5792,
+				"player_name": "Ante Rebic"
+			},
+			"team": {
+				"team_id": 4798,
+				"team_name": "AC Milan"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 2,
+			"minutes_played": 117,
+			"substituted_in": null,
+			"goals": {
+				"overall": 1,
+				"home": 0,
+				"away": 1
+			},
+			"penalties": null
+		},
+		{
+			"pos": 98,
+			"player": {
+				"player_id": 2925,
+				"player_name": "Divock Okoth Origi"
+			},
+			"team": {
+				"team_id": 2509,
+				"team_name": "Liverpool FC"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 7,
+			"minutes_played": 184,
+			"substituted_in": 5,
+			"goals": {
+				"overall": 1,
+				"home": 0,
+				"away": 1
+			},
+			"penalties": null
+		},
+		{
+			"pos": 99,
+			"player": {
+				"player_id": 5526,
+				"player_name": "Rodrigo Javier De Paul"
+			},
+			"team": {
+				"team_id": 6406,
+				"team_name": "Atletico Madrid"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 9,
+			"minutes_played": 577,
+			"substituted_in": 4,
+			"goals": {
+				"overall": 1,
+				"home": 0,
+				"away": 1
+			},
+			"penalties": null
+		},
+		{
+			"pos": 100,
+			"player": {
+				"player_id": 15773,
+				"player_name": "Angel Martin Correa Martinez"
+			},
+			"team": {
+				"team_id": 6406,
+				"team_name": "Atletico Madrid"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 10,
+			"minutes_played": 399,
+			"substituted_in": 7,
+			"goals": {
+				"overall": 1,
+				"home": 0,
+				"away": 1
+			},
+			"penalties": null
+		},
+		{
+			"pos": 101,
+			"player": {
+				"player_id": 11004,
+				"player_name": "Naby Laye Keita"
+			},
+			"team": {
+				"team_id": 2509,
+				"team_name": "Liverpool FC"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 8,
+			"minutes_played": 394,
+			"substituted_in": 4,
+			"goals": {
+				"overall": 1,
+				"home": 0,
+				"away": 1
+			},
+			"penalties": null
+		},
+		{
+			"pos": 102,
+			"player": {
+				"player_id": 2948,
+				"player_name": "Oluwafikayomi Oluwadamilola Tomori"
+			},
+			"team": {
+				"team_id": 4798,
+				"team_name": "AC Milan"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 5,
+			"minutes_played": 419,
+			"substituted_in": null,
+			"goals": {
+				"overall": 1,
+				"home": 1,
+				"away": 0
+			},
+			"penalties": null
+		},
+		{
+			"pos": 103,
+			"player": {
+				"player_id": 849,
+				"player_name": "Mehdi Taremi"
+			},
+			"team": {
+				"team_id": 5917,
+				"team_name": "FC Porto"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 6,
+			"minutes_played": 495,
+			"substituted_in": null,
+			"goals": {
+				"overall": 1,
+				"home": 1,
+				"away": 0
+			},
+			"penalties": null
+		},
+		{
+			"pos": 104,
+			"player": {
+				"player_id": 2941,
+				"player_name": "Diogo Jose Teixeira da Silva"
+			},
+			"team": {
+				"team_id": 2509,
+				"team_name": "Liverpool FC"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 9,
+			"minutes_played": 508,
+			"substituted_in": 3,
+			"goals": {
+				"overall": 1,
+				"home": 1,
+				"away": 0
+			},
+			"penalties": null
+		},
+		{
+			"pos": 105,
+			"player": {
+				"player_id": 5669,
+				"player_name": "Rafael Alexandre da Conceicao Leao"
+			},
+			"team": {
+				"team_id": 4798,
+				"team_name": "AC Milan"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 4,
+			"minutes_played": 294,
+			"substituted_in": null,
+			"goals": {
+				"overall": 1,
+				"home": 1,
+				"away": 0
+			},
+			"penalties": null
+		},
+		{
+			"pos": 106,
+			"player": {
+				"player_id": 28024,
+				"player_name": "Brahim Diaz"
+			},
+			"team": {
+				"team_id": 4798,
+				"team_name": "AC Milan"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 5,
+			"minutes_played": 352,
+			"substituted_in": null,
+			"goals": {
+				"overall": 1,
+				"home": 0,
+				"away": 1
+			},
+			"penalties": null
+		},
+		{
+			"pos": 107,
+			"player": {
+				"player_id": 12650,
+				"player_name": "Walter Junior Messias"
+			},
+			"team": {
+				"team_id": 4798,
+				"team_name": "AC Milan"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 2,
+			"minutes_played": 115,
+			"substituted_in": 1,
+			"goals": {
+				"overall": 1,
+				"home": 0,
+				"away": 1
+			},
+			"penalties": null
+		},
+		{
+			"pos": 108,
+			"player": {
+				"player_id": 5806,
+				"player_name": "Daley Blind"
+			},
+			"team": {
+				"team_id": 5324,
+				"team_name": "Ajax Amsterdam"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 8,
+			"minutes_played": 574,
+			"substituted_in": 1,
+			"goals": {
+				"overall": 1,
+				"home": 1,
+				"away": 0
+			},
+			"penalties": null
+		},
+		{
+			"pos": 109,
+			"player": {
+				"player_id": 4783,
+				"player_name": "Davy Klaassen"
+			},
+			"team": {
+				"team_id": 5324,
+				"team_name": "Ajax Amsterdam"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 7,
+			"minutes_played": 229,
+			"substituted_in": 6,
+			"goals": {
+				"overall": 1,
+				"home": 0,
+				"away": 1
+			},
+			"penalties": null
+		},
+		{
+			"pos": 110,
+			"player": {
+				"player_id": 20889,
+				"player_name": "Rachid Ghezzal"
+			},
+			"team": {
+				"team_id": 3509,
+				"team_name": "Besiktas"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 5,
+			"minutes_played": 345,
+			"substituted_in": 1,
+			"goals": {
+				"overall": 1,
+				"home": 1,
+				"away": 0
+			},
+			"penalties": 1
+		},
+		{
+			"pos": 111,
+			"player": {
+				"player_id": 22137,
+				"player_name": "Nuno Miguel Gomes dos Santos"
+			},
+			"team": {
+				"team_id": 5801,
+				"team_name": "Sporting CP"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 7,
+			"minutes_played": 216,
+			"substituted_in": 5,
+			"goals": {
+				"overall": 1,
+				"home": 0,
+				"away": 1
+			},
+			"penalties": null
+		},
+		{
+			"pos": 112,
+			"player": {
+				"player_id": 1947,
+				"player_name": "Cyle Christopher Larin"
+			},
+			"team": {
+				"team_id": 3509,
+				"team_name": "Besiktas"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 5,
+			"minutes_played": 354,
+			"substituted_in": null,
+			"goals": {
+				"overall": 1,
+				"home": 1,
+				"away": 0
+			},
+			"penalties": null
+		},
+		{
+			"pos": 113,
+			"player": {
+				"player_id": 7421,
+				"player_name": "Francisco Javier Montero Rubio"
+			},
+			"team": {
+				"team_id": 3509,
+				"team_name": "Besiktas"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 4,
+			"minutes_played": 306,
+			"substituted_in": null,
+			"goals": {
+				"overall": 1,
+				"home": 1,
+				"away": 0
+			},
+			"penalties": null
+		},
+		{
+			"pos": 114,
+			"player": {
+				"player_id": 19549,
+				"player_name": "Bruno Vinicius Souza Ramos"
+			},
+			"team": {
+				"team_id": 5801,
+				"team_name": "Sporting CP"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 4,
+			"minutes_played": 201,
+			"substituted_in": 2,
+			"goals": {
+				"overall": 1,
+				"home": 0,
+				"away": 1
+			},
+			"penalties": null
+		},
+		{
+			"pos": 115,
+			"player": {
+				"player_id": 23706,
+				"player_name": "David Neres Campos"
+			},
+			"team": {
+				"team_id": 5801,
+				"team_name": "Sporting CP"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 5,
+			"minutes_played": 203,
+			"substituted_in": 3,
+			"goals": {
+				"overall": 1,
+				"home": 1,
+				"away": 0
+			},
+			"penalties": null
+		},
+		{
+			"pos": 116,
+			"player": {
+				"player_id": 17715,
+				"player_name": "Pedro Antonio Porro Sauceda"
+			},
+			"team": {
+				"team_id": 5801,
+				"team_name": "Sporting CP"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 7,
+			"minutes_played": 530,
+			"substituted_in": null,
+			"goals": {
+				"overall": 1,
+				"home": 1,
+				"away": 0
+			},
+			"penalties": null
+		},
+		{
+			"pos": 117,
+			"player": {
+				"player_id": 3567,
+				"player_name": "Jude Bellingham"
+			},
+			"team": {
+				"team_id": 4074,
+				"team_name": "Borussia Dortmund"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 6,
+			"minutes_played": 502,
+			"substituted_in": null,
+			"goals": {
+				"overall": 1,
+				"home": 0,
+				"away": 1
+			},
+			"penalties": null
+		},
+		{
+			"pos": 118,
+			"player": {
+				"player_id": 17165,
+				"player_name": "Arturo Erasmo Vidal Pardo"
+			},
+			"team": {
+				"team_id": 4810,
+				"team_name": "Inter Milano"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 7,
+			"minutes_played": 409,
+			"substituted_in": 3,
+			"goals": {
+				"overall": 1,
+				"home": 1,
+				"away": 0
+			},
+			"penalties": null
+		},
+		{
+			"pos": 119,
+			"player": {
+				"player_id": 5725,
+				"player_name": "Alexis Alejandro Sanchez"
+			},
+			"team": {
+				"team_id": 4810,
+				"team_name": "Inter Milano"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 6,
+			"minutes_played": 155,
+			"substituted_in": 5,
+			"goals": {
+				"overall": 1,
+				"home": 0,
+				"away": 1
+			},
+			"penalties": null
+		},
+		{
+			"pos": 120,
+			"player": {
+				"player_id": 5075,
+				"player_name": "David Alaba"
+			},
+			"team": {
+				"team_id": 6402,
+				"team_name": "Real Madrid"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 11,
+			"minutes_played": 950,
+			"substituted_in": null,
+			"goals": {
+				"overall": 1,
+				"home": 0,
+				"away": 1
+			},
+			"penalties": null
+		},
+		{
+			"pos": 121,
+			"player": {
+				"player_id": 5671,
+				"player_name": "Stefan De Vrij"
+			},
+			"team": {
+				"team_id": 4810,
+				"team_name": "Inter Milano"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 6,
+			"minutes_played": 487,
+			"substituted_in": null,
+			"goals": {
+				"overall": 1,
+				"home": 1,
+				"away": 0
+			},
+			"penalties": null
+		},
+		{
+			"pos": 122,
+			"player": {
+				"player_id": 5413,
+				"player_name": "Marcelo Brozovic"
+			},
+			"team": {
+				"team_id": 4810,
+				"team_name": "Inter Milano"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 8,
+			"minutes_played": 635,
+			"substituted_in": null,
+			"goals": {
+				"overall": 1,
+				"home": 0,
+				"away": 1
+			},
+			"penalties": null
+		},
+		{
+			"pos": 123,
+			"player": {
+				"player_id": 5410,
+				"player_name": "Milan Skriniar"
+			},
+			"team": {
+				"team_id": 4810,
+				"team_name": "Inter Milano"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 8,
+			"minutes_played": 720,
+			"substituted_in": null,
+			"goals": {
+				"overall": 1,
+				"home": 0,
+				"away": 1
+			},
+			"penalties": null
+		},
+		{
+			"pos": 124,
+			"player": {
+				"player_id": 5388,
+				"player_name": "Boban Nikolov"
+			},
+			"team": {
+				"team_id": 5278,
+				"team_name": "FC Sheriff Tiraspol"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 5,
+			"minutes_played": 95,
+			"substituted_in": 5,
+			"goals": {
+				"overall": 1,
+				"home": 0,
+				"away": 1
+			},
+			"penalties": null
+		},
+		{
+			"pos": 125,
+			"player": {
+				"player_id": 31305,
+				"player_name": "Marco Asensio"
+			},
+			"team": {
+				"team_id": 6402,
+				"team_name": "Real Madrid"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 7,
+			"minutes_played": 161,
+			"substituted_in": 5,
+			"goals": {
+				"overall": 1,
+				"home": 1,
+				"away": 0
+			},
+			"penalties": null
+		},
+		{
+			"pos": 126,
+			"player": {
+				"player_id": 10274,
+				"player_name": "Jasurbek Yakhshiboev"
+			},
+			"team": {
+				"team_id": 5278,
+				"team_name": "FC Sheriff Tiraspol"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 3,
+			"minutes_played": 205,
+			"substituted_in": null,
+			"goals": {
+				"overall": 1,
+				"home": 0,
+				"away": 1
+			},
+			"penalties": null
+		},
+		{
+			"pos": 127,
+			"player": {
+				"player_id": 10159,
+				"player_name": "Momo Yansane"
+			},
+			"team": {
+				"team_id": 5278,
+				"team_name": "FC Sheriff Tiraspol"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 3,
+			"minutes_played": 156,
+			"substituted_in": 2,
+			"goals": {
+				"overall": 1,
+				"home": 1,
+				"away": 0
+			},
+			"penalties": null
+		},
+		{
+			"pos": 128,
+			"player": {
+				"player_id": 23334,
+				"player_name": "Gerard Pique Bernabeu"
+			},
+			"team": {
+				"team_id": 6404,
+				"team_name": "FC Barcelona"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 5,
+			"minutes_played": 393,
+			"substituted_in": null,
+			"goals": {
+				"overall": 1,
+				"home": 1,
+				"away": 0
+			},
+			"penalties": null
+		},
+		{
+			"pos": 129,
+			"player": {
+				"player_id": 229,
+				"player_name": "Jean Eric Maxim Choupo Moting"
+			},
+			"team": {
+				"team_id": 4066,
+				"team_name": "FC Bayern Munich"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 4,
+			"minutes_played": 47,
+			"substituted_in": 4,
+			"goals": {
+				"overall": 1,
+				"home": 1,
+				"away": 0
+			},
+			"penalties": null
+		},
+		{
+			"pos": 130,
+			"player": {
+				"player_id": 8307,
+				"player_name": "Denys Garmash"
+			},
+			"team": {
+				"team_id": 7441,
+				"team_name": "FC Dynamo Kiev"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 6,
+			"minutes_played": 325,
+			"substituted_in": 3,
+			"goals": {
+				"overall": 1,
+				"home": 1,
+				"away": 0
+			},
+			"penalties": null
+		},
+		{
+			"pos": 131,
+			"player": {
+				"player_id": 13080,
+				"player_name": "Rafael Alexandre Fernandes Ferreira Silva"
+			},
+			"team": {
+				"team_id": 5800,
+				"team_name": "Sl Benfica"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 9,
+			"minutes_played": 705,
+			"substituted_in": 1,
+			"goals": {
+				"overall": 1,
+				"home": 1,
+				"away": 0
+			},
+			"penalties": null
+		},
+		{
+			"pos": 132,
+			"player": {
+				"player_id": 28865,
+				"player_name": " Gilberto"
+			},
+			"team": {
+				"team_id": 5800,
+				"team_name": "Sl Benfica"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 9,
+			"minutes_played": 718,
+			"substituted_in": 1,
+			"goals": {
+				"overall": 1,
+				"home": 1,
+				"away": 0
+			},
+			"penalties": null
+		},
+		{
+			"pos": 133,
+			"player": {
+				"player_id": 12303,
+				"player_name": "Anssumane Fati"
+			},
+			"team": {
+				"team_id": 6404,
+				"team_name": "FC Barcelona"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 3,
+			"minutes_played": 154,
+			"substituted_in": 2,
+			"goals": {
+				"overall": 1,
+				"home": 0,
+				"away": 1
+			},
+			"penalties": null
+		},
+		{
+			"pos": 134,
+			"player": {
+				"player_id": 6419,
+				"player_name": "Felipe Rodrigues da Silva"
+			},
+			"team": {
+				"team_id": 5800,
+				"team_name": "Sl Benfica"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 2,
+			"minutes_played": 180,
+			"substituted_in": null,
+			"goals": {
+				"overall": 1,
+				"home": 0,
+				"away": 1
+			},
+			"penalties": null
+		},
+		{
+			"pos": 135,
+			"player": {
+				"player_id": 12227,
+				"player_name": "Jamal Musiala"
+			},
+			"team": {
+				"team_id": 4066,
+				"team_name": "FC Bayern Munich"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 8,
+			"minutes_played": 449,
+			"substituted_in": 3,
+			"goals": {
+				"overall": 1,
+				"home": 1,
+				"away": 0
+			},
+			"penalties": null
+		},
+		{
+			"pos": 136,
+			"player": {
+				"player_id": 5549,
+				"player_name": "Josip Ilicic"
+			},
+			"team": {
+				"team_id": 3511,
+				"team_name": "Atalanta Bergamasca Calcio"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 4,
+			"minutes_played": 249,
+			"substituted_in": 1,
+			"goals": {
+				"overall": 1,
+				"home": 1,
+				"away": 0
+			},
+			"penalties": null
+		},
+		{
+			"pos": 137,
+			"player": {
+				"player_id": 5688,
+				"player_name": "Jose Luis Palomino"
+			},
+			"team": {
+				"team_id": 3511,
+				"team_name": "Atalanta Bergamasca Calcio"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 5,
+			"minutes_played": 450,
+			"substituted_in": null,
+			"goals": {
+				"overall": 1,
+				"home": 0,
+				"away": 1
+			},
+			"penalties": null
+		},
+		{
+			"pos": 138,
+			"player": {
+				"player_id": 4840,
+				"player_name": "Francisco Alcacer Garcia"
+			},
+			"team": {
+				"team_id": 6534,
+				"team_name": "CF Villarreal"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 2,
+			"minutes_played": 62,
+			"substituted_in": 1,
+			"goals": {
+				"overall": 1,
+				"home": 0,
+				"away": 1
+			},
+			"penalties": null
+		},
+		{
+			"pos": 139,
+			"player": {
+				"player_id": 5591,
+				"player_name": "Remo Freuler"
+			},
+			"team": {
+				"team_id": 3511,
+				"team_name": "Atalanta Bergamasca Calcio"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 6,
+			"minutes_played": 528,
+			"substituted_in": null,
+			"goals": {
+				"overall": 1,
+				"home": 0,
+				"away": 1
+			},
+			"penalties": null
+		},
+		{
+			"pos": 140,
+			"player": {
+				"player_id": 5691,
+				"player_name": "Luis Fernando Muriel Fruto"
+			},
+			"team": {
+				"team_id": 3511,
+				"team_name": "Atalanta Bergamasca Calcio"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 5,
+			"minutes_played": 130,
+			"substituted_in": 4,
+			"goals": {
+				"overall": 1,
+				"home": 0,
+				"away": 1
+			},
+			"penalties": null
+		},
+		{
+			"pos": 141,
+			"player": {
+				"player_id": 3018,
+				"player_name": "Jacob Harry Maguire"
+			},
+			"team": {
+				"team_id": 2523,
+				"team_name": "Manchester United"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 6,
+			"minutes_played": 534,
+			"substituted_in": null,
+			"goals": {
+				"overall": 1,
+				"home": 1,
+				"away": 0
+			},
+			"penalties": null
+		},
+		{
+			"pos": 142,
+			"player": {
+				"player_id": 18335,
+				"player_name": "Manuel Trigueros Munoz"
+			},
+			"team": {
+				"team_id": 6534,
+				"team_name": "CF Villarreal"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 8,
+			"minutes_played": 319,
+			"substituted_in": 4,
+			"goals": {
+				"overall": 1,
+				"home": 1,
+				"away": 0
+			},
+			"penalties": null
+		},
+		{
+			"pos": 143,
+			"player": {
+				"player_id": 5547,
+				"player_name": "Mario Pasalic"
+			},
+			"team": {
+				"team_id": 3511,
+				"team_name": "Atalanta Bergamasca Calcio"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 5,
+			"minutes_played": 220,
+			"substituted_in": 2,
+			"goals": {
+				"overall": 1,
+				"home": 0,
+				"away": 1
+			},
+			"penalties": null
+		},
+		{
+			"pos": 144,
+			"player": {
+				"player_id": 5690,
+				"player_name": "Ruslan Malinovskyi"
+			},
+			"team": {
+				"team_id": 3511,
+				"team_name": "Atalanta Bergamasca Calcio"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 5,
+			"minutes_played": 301,
+			"substituted_in": 2,
+			"goals": {
+				"overall": 1,
+				"home": 1,
+				"away": 0
+			},
+			"penalties": null
+		},
+		{
+			"pos": 145,
+			"player": {
+				"player_id": 18291,
+				"player_name": "Alberto Moreno Perez"
+			},
+			"team": {
+				"team_id": 6534,
+				"team_name": "CF Villarreal"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 7,
+			"minutes_played": 311,
+			"substituted_in": 4,
+			"goals": {
+				"overall": 1,
+				"home": 0,
+				"away": 1
+			},
+			"penalties": null
+		},
+		{
+			"pos": 146,
+			"player": {
+				"player_id": 6199,
+				"player_name": "Alex Nicolao Telles"
+			},
+			"team": {
+				"team_id": 2523,
+				"team_name": "Manchester United"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 4,
+			"minutes_played": 292,
+			"substituted_in": 1,
+			"goals": {
+				"overall": 1,
+				"home": 1,
+				"away": 0
+			},
+			"penalties": null
+		},
+		{
+			"pos": 147,
+			"player": {
+				"player_id": 5695,
+				"player_name": "Matteo Pessina"
+			},
+			"team": {
+				"team_id": 3511,
+				"team_name": "Atalanta Bergamasca Calcio"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 4,
+			"minutes_played": 210,
+			"substituted_in": 1,
+			"goals": {
+				"overall": 1,
+				"home": 1,
+				"away": 0
+			},
+			"penalties": null
+		},
+		{
+			"pos": 148,
+			"player": {
+				"player_id": 5548,
+				"player_name": "Robin Gosens"
+			},
+			"team": {
+				"team_id": 3511,
+				"team_name": "Atalanta Bergamasca Calcio"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 2,
+			"minutes_played": 101,
+			"substituted_in": null,
+			"goals": {
+				"overall": 1,
+				"home": 0,
+				"away": 1
+			},
+			"penalties": null
+		},
+		{
+			"pos": 149,
+			"player": {
+				"player_id": 5662,
+				"player_name": "Merih Demiral"
+			},
+			"team": {
+				"team_id": 3511,
+				"team_name": "Atalanta Bergamasca Calcio"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 6,
+			"minutes_played": 370,
+			"substituted_in": 1,
+			"goals": {
+				"overall": 1,
+				"home": 0,
+				"away": 1
+			},
+			"penalties": null
+		},
+		{
+			"pos": 150,
+			"player": {
+				"player_id": 7794,
+				"player_name": "Vincent Sierro"
+			},
+			"team": {
+				"team_id": 7100,
+				"team_name": "BSC Young Boys"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 5,
+			"minutes_played": 240,
+			"substituted_in": 2,
+			"goals": {
+				"overall": 1,
+				"home": 1,
+				"away": 0
+			},
+			"penalties": null
+		},
+		{
+			"pos": 151,
+			"player": {
+				"player_id": 7704,
+				"player_name": "Silvan Hefti"
+			},
+			"team": {
+				"team_id": 7100,
+				"team_name": "BSC Young Boys"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 6,
+			"minutes_played": 402,
+			"substituted_in": 2,
+			"goals": {
+				"overall": 1,
+				"home": 1,
+				"away": 0
+			},
+			"penalties": null
+		},
+		{
+			"pos": 152,
+			"player": {
+				"player_id": 3025,
+				"player_name": "Marcus Rashford"
+			},
+			"team": {
+				"team_id": 2523,
+				"team_name": "Manchester United"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 5,
+			"minutes_played": 258,
+			"substituted_in": 2,
+			"goals": {
+				"overall": 1,
+				"home": 1,
+				"away": 0
+			},
+			"penalties": null
+		},
+		{
+			"pos": 153,
+			"player": {
+				"player_id": 7721,
+				"player_name": "Nicolas Brice Moumi Ngamaleu"
+			},
+			"team": {
+				"team_id": 7100,
+				"team_name": "BSC Young Boys"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 6,
+			"minutes_played": 532,
+			"substituted_in": null,
+			"goals": {
+				"overall": 1,
+				"home": 1,
+				"away": 0
+			},
+			"penalties": null
+		},
+		{
+			"pos": 154,
+			"player": {
+				"player_id": 4837,
+				"player_name": "Jadon Malik Sancho"
+			},
+			"team": {
+				"team_id": 2523,
+				"team_name": "Manchester United"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 7,
+			"minutes_played": 394,
+			"substituted_in": 2,
+			"goals": {
+				"overall": 1,
+				"home": 0,
+				"away": 1
+			},
+			"penalties": null
+		},
+		{
+			"pos": 155,
+			"player": {
+				"player_id": 32,
+				"player_name": "Meschak Elia Lina"
+			},
+			"team": {
+				"team_id": 7100,
+				"team_name": "BSC Young Boys"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 6,
+			"minutes_played": 490,
+			"substituted_in": null,
+			"goals": {
+				"overall": 1,
+				"home": 1,
+				"away": 0
+			},
+			"penalties": null
+		},
+		{
+			"pos": 156,
+			"player": {
+				"player_id": 33950,
+				"player_name": "Fabian Rieder"
+			},
+			"team": {
+				"team_id": 7100,
+				"team_name": "BSC Young Boys"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 6,
+			"minutes_played": 256,
+			"substituted_in": 3,
+			"goals": {
+				"overall": 1,
+				"home": 0,
+				"away": 1
+			},
+			"penalties": null
+		},
+		{
+			"pos": 157,
+			"player": {
+				"player_id": 16009,
+				"player_name": "Mason Greenwood"
+			},
+			"team": {
+				"team_id": 2523,
+				"team_name": "Manchester United"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 4,
+			"minutes_played": 304,
+			"substituted_in": 1,
+			"goals": {
+				"overall": 1,
+				"home": 1,
+				"away": 0
+			},
+			"penalties": null
+		},
+		{
+			"pos": 158,
+			"player": {
+				"player_id": 42503,
+				"player_name": "Yeremy Santos"
+			},
+			"team": {
+				"team_id": 6534,
+				"team_name": "CF Villarreal"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 7,
+			"minutes_played": 432,
+			"substituted_in": 1,
+			"goals": {
+				"overall": 1,
+				"home": 0,
+				"away": 1
+			},
+			"penalties": null
+		},
+		{
+			"pos": 159,
+			"player": {
+				"player_id": 15780,
+				"player_name": "Lucas Ariel Ocampos"
+			},
+			"team": {
+				"team_id": 3513,
+				"team_name": "FC Sevilla"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 6,
+			"minutes_played": 463,
+			"substituted_in": 1,
+			"goals": {
+				"overall": 1,
+				"home": 1,
+				"away": 0
+			},
+			"penalties": null
+		},
+		{
+			"pos": 160,
+			"player": {
+				"player_id": 19302,
+				"player_name": "Joan Jordan Moreno"
+			},
+			"team": {
+				"team_id": 3513,
+				"team_name": "FC Sevilla"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 6,
+			"minutes_played": 327,
+			"substituted_in": 2,
+			"goals": {
+				"overall": 1,
+				"home": 1,
+				"away": 0
+			},
+			"penalties": null
+		},
+		{
+			"pos": 161,
+			"player": {
+				"player_id": 4211,
+				"player_name": "Nanitamo Jonathan Ikone"
+			},
+			"team": {
+				"team_id": 3513,
+				"team_name": "FC Sevilla"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 5,
+			"minutes_played": 296,
+			"substituted_in": 2,
+			"goals": {
+				"overall": 1,
+				"home": 0,
+				"away": 1
+			},
+			"penalties": null
+		},
+		{
+			"pos": 162,
+			"player": {
+				"player_id": 1666,
+				"player_name": "Maximilian Wober"
+			},
+			"team": {
+				"team_id": 1676,
+				"team_name": "FC Salzburg"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 7,
+			"minutes_played": 573,
+			"substituted_in": null,
+			"goals": {
+				"overall": 1,
+				"home": 0,
+				"away": 1
+			},
+			"penalties": null
+		},
+		{
+			"pos": 163,
+			"player": {
+				"player_id": 5012,
+				"player_name": "Bote Nzuzi Baku"
+			},
+			"team": {
+				"team_id": 4069,
+				"team_name": "VfL Wolfsburg"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 6,
+			"minutes_played": 414,
+			"substituted_in": 1,
+			"goals": {
+				"overall": 1,
+				"home": 1,
+				"away": 0
+			},
+			"penalties": null
+		},
+		{
+			"pos": 164,
+			"player": {
+				"player_id": 7667,
+				"player_name": "Rafael Mir Vicente"
+			},
+			"team": {
+				"team_id": 3513,
+				"team_name": "FC Sevilla"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 6,
+			"minutes_played": 272,
+			"substituted_in": 3,
+			"goals": {
+				"overall": 1,
+				"home": 1,
+				"away": 0
+			},
+			"penalties": null
+		},
+		{
+			"pos": 165,
+			"player": {
+				"player_id": 13131,
+				"player_name": "Angel Gomes"
+			},
+			"team": {
+				"team_id": 3790,
+				"team_name": "LOSC Lille"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 4,
+			"minutes_played": 168,
+			"substituted_in": 2,
+			"goals": {
+				"overall": 1,
+				"home": 0,
+				"away": 1
+			},
+			"penalties": null
+		},
+		{
+			"pos": 166,
+			"player": {
+				"player_id": 1476,
+				"player_name": "Luka Sucic"
+			},
+			"team": {
+				"team_id": 1676,
+				"team_name": "FC Salzburg"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 8,
+			"minutes_played": 518,
+			"substituted_in": 2,
+			"goals": {
+				"overall": 1,
+				"home": 0,
+				"away": 1
+			},
+			"penalties": 1
+		},
+		{
+			"pos": 167,
+			"player": {
+				"player_id": 28114,
+				"player_name": "Soren Rieks"
+			},
+			"team": {
+				"team_id": 3406,
+				"team_name": "Malmo FF"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 3,
+			"minutes_played": 223,
+			"substituted_in": null,
+			"goals": {
+				"overall": 1,
+				"home": 1,
+				"away": 0
+			},
+			"penalties": null
+		},
+		{
+			"pos": 168,
+			"player": {
+				"player_id": 6701,
+				"player_name": "Yaroslav Rakitskiy"
+			},
+			"team": {
+				"team_id": 3406,
+				"team_name": "Malmo FF"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 6,
+			"minutes_played": 499,
+			"substituted_in": null,
+			"goals": {
+				"overall": 1,
+				"home": 0,
+				"away": 1
+			},
+			"penalties": 1
+		},
+		{
+			"pos": 169,
+			"player": {
+				"player_id": 5569,
+				"player_name": "Alex Sandro Lobo Silva"
+			},
+			"team": {
+				"team_id": 4794,
+				"team_name": "Juventus Turin"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 7,
+			"minutes_played": 553,
+			"substituted_in": null,
+			"goals": {
+				"overall": 1,
+				"home": 0,
+				"away": 1
+			},
+			"penalties": null
+		},
+		{
+			"pos": 170,
+			"player": {
+				"player_id": 6704,
+				"player_name": "Magomed Ozdoev"
+			},
+			"team": {
+				"team_id": 6183,
+				"team_name": "FC Zenit St Petersburg"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 1,
+			"minutes_played": 10,
+			"substituted_in": 1,
+			"goals": {
+				"overall": 1,
+				"home": 1,
+				"away": 0
+			},
+			"penalties": null
+		},
+		{
+			"pos": 171,
+			"player": {
+				"player_id": 2946,
+				"player_name": "Andreas Bodtker Christensen"
+			},
+			"team": {
+				"team_id": 2524,
+				"team_name": "Chelsea FC"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 8,
+			"minutes_played": 603,
+			"substituted_in": null,
+			"goals": {
+				"overall": 1,
+				"home": 1,
+				"away": 0
+			},
+			"penalties": null
+		},
+		{
+			"pos": 172,
+			"player": {
+				"player_id": 98,
+				"player_name": "Hakim Ziyech"
+			},
+			"team": {
+				"team_id": 2524,
+				"team_name": "Chelsea FC"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 9,
+			"minutes_played": 447,
+			"substituted_in": 4,
+			"goals": {
+				"overall": 1,
+				"home": 0,
+				"away": 1
+			},
+			"penalties": null
+		},
+		{
+			"pos": 173,
+			"player": {
+				"player_id": 6781,
+				"player_name": "Daler Adyamovich Kuzyaev"
+			},
+			"team": {
+				"team_id": 6183,
+				"team_name": "FC Zenit St Petersburg"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 4,
+			"minutes_played": 258,
+			"substituted_in": 1,
+			"goals": {
+				"overall": 1,
+				"home": 1,
+				"away": 0
+			},
+			"penalties": null
+		},
+		{
+			"pos": 174,
+			"player": {
+				"player_id": 6706,
+				"player_name": "Aleksey Sutormin"
+			},
+			"team": {
+				"team_id": 6183,
+				"team_name": "FC Zenit St Petersburg"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 4,
+			"minutes_played": 292,
+			"substituted_in": 1,
+			"goals": {
+				"overall": 1,
+				"home": 1,
+				"away": 0
+			},
+			"penalties": null
+		},
+		{
+			"pos": 175,
+			"player": {
+				"player_id": 3467,
+				"player_name": "Trevoh Tomas Chalobah"
+			},
+			"team": {
+				"team_id": 2524,
+				"team_name": "Chelsea FC"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 3,
+			"minutes_played": 175,
+			"substituted_in": 2,
+			"goals": {
+				"overall": 1,
+				"home": 1,
+				"away": 0
+			},
+			"penalties": null
+		},
+		{
+			"pos": 176,
+			"player": {
+				"player_id": 2894,
+				"player_name": "Moise Kean"
+			},
+			"team": {
+				"team_id": 4794,
+				"team_name": "Juventus Turin"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 6,
+			"minutes_played": 165,
+			"substituted_in": 5,
+			"goals": {
+				"overall": 1,
+				"home": 1,
+				"away": 0
+			},
+			"penalties": null
+		},
+		{
+			"pos": 177,
+			"player": {
+				"player_id": 5538,
+				"player_name": "Dejan Kulusevski"
+			},
+			"team": {
+				"team_id": 4794,
+				"team_name": "Juventus Turin"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 5,
+			"minutes_played": 79,
+			"substituted_in": 5,
+			"goals": {
+				"overall": 1,
+				"home": 0,
+				"away": 1
+			},
+			"penalties": null
+		},
+		{
+			"pos": 178,
+			"player": {
+				"player_id": 3425,
+				"player_name": "Callum James Hudson Odoi"
+			},
+			"team": {
+				"team_id": 2524,
+				"team_name": "Chelsea FC"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 5,
+			"minutes_played": 289,
+			"substituted_in": 2,
+			"goals": {
+				"overall": 1,
+				"home": 1,
+				"away": 0
+			},
+			"penalties": null
+		},
+		{
+			"pos": 179,
+			"player": {
+				"player_id": 19575,
+				"player_name": "Marcus Wendel Valle da Silva"
+			},
+			"team": {
+				"team_id": 6183,
+				"team_name": "FC Zenit St Petersburg"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 6,
+			"minutes_played": 486,
+			"substituted_in": null,
+			"goals": {
+				"overall": 1,
+				"home": 1,
+				"away": 0
+			},
+			"penalties": null
+		},
+		{
+			"pos": 180,
+			"player": {
+				"player_id": 3557,
+				"player_name": "Reece James"
+			},
+			"team": {
+				"team_id": 2524,
+				"team_name": "Chelsea FC"
+			},
+			"league_id": 281,
+			"season_id": 1959,
+			"matches_played": 6,
+			"minutes_played": 505,
+			"substituted_in": 1,
+			"goals": {
+				"overall": 1,
+				"home": 1,
+				"away": 0
+			},
+			"penalties": null
+		}
+	]
+}

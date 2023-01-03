@@ -1,0 +1,35 @@
+{
+	"query":
+	{
+		"apikey":"85c23410-5146-11ed-9047-d9c68d49006d",
+		"country_id":"42"
+	}, 
+	"data":
+	{
+		"236": {"league_id":237,"country_id":42,"name":"Premier League"},
+		"237": {"league_id":238,"country_id":42,"name":"Championship"},
+		"238": {"league_id":239,"country_id":42,"name":"League One"},
+		"239": {"league_id":240,"country_id":42,"name":"League Two"},
+		"240": {"league_id":241,"country_id":42,"name":"National League"},
+		"241": {"league_id":242,"country_id":42,"name":"National League North"},
+		"242": {"league_id":243,"country_id":42,"name":"National League South"},
+		"243": {"league_id":244,"country_id":42,"name":"Isthmian League Premier Division"},
+		"244": {"league_id":245,"country_id":42,"name":"NPL Premier Division"},
+		"245": {"league_id":246,"country_id":42,"name":"Southern Football League - Championship Playoff"},
+		"246": {"league_id":247,"country_id":42,"name":"Southern Football League - Premier Division South"},
+		"247": {"league_id":248,"country_id":42,"name":"Southern League Central Division"},
+		"248": {"league_id":249,"country_id":42,"name":"FA Cup"},
+		"249": {"league_id":250,"country_id":42,"name":"FA Community Shield"},
+		"250": {"league_id":251,"country_id":42,"name":"EFL Cup"},
+		"251": {"league_id":252,"country_id":42,"name":"EFL Trophy"},
+		"252": {"league_id":253,"country_id":42,"name":"FA Trophy"},
+		"253": {"league_id":254,"country_id":42,"name":"FA Cup - Qualification"},
+		"254": {"league_id":255,"country_id":42,"name":"FA Trophy - Qualification"},
+		"255": {"league_id":256,"country_id":42,"name":"Premier League 2"},
+		"256": {"league_id":257,"country_id":42,"name":"Premier League Cup U23"},
+		"257": {"league_id":258,"country_id":42,"name":"Professional Development League"},
+		"258": {"league_id":259,"country_id":42,"name":"Women's FA Cup"},
+		"259": {"league_id":260,"country_id":42,"name":"Women’s League Cup"},
+		"281": {"league_id":281,"country_id":4,"name":"UEFA Champions League"}
+	}
+}

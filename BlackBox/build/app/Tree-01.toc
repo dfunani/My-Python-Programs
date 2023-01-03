@@ -1,0 +1,9 @@
+('C:\\Users\\dfuna\\Documents\\GitHub\\My Python '
+ 'Programs\\env\\share\\glew\\bin',
+ None,
+ [],
+ 'DATA',
+ [('glew32.dll',
+   'C:\\Users\\dfuna\\Documents\\GitHub\\My Python '
+   'Programs\\env\\share\\glew\\bin\\glew32.dll',
+   'DATA')])

@@ -30,6 +30,18 @@ COLORS = {
 'Teal':(0,128,128),
 'Navy':(0,0,128)
   }
+CARROT = r'''||| | |||
+\\\|///
+\\\|///
+ -------
+|       |
+|       |
+|       |
+|       |
+|       |
+\      /
+ \    /
+  \_/'''
 
 class Player(Widget):
     
@@ -58,23 +70,33 @@ class BlackBoxApp(App):
                 self.gameState += player
             else:
                 self.gameState = player
-            
             if self.gameState == 3:
-                layout.children[1].children[1].disabled = False
+                layout.children[1].children[0].text = "Choose Colors (2)!!!"
+            
             
         def select_color(self, x):
             layoutPlayer.children[2].background_color = COLORS[x]
             layoutPlayer.children[2].text = f"{layoutPlayer.children[2].text[0:-3]}{x} Box"
+            
+            if layout.children[1].children[0].text == "Choose Colors (1)!!!":
+                layout.children[1].children[2].disabled = False
+                layout.children[1].children[0].text = ''  
+            elif layout.children[1].children[0].text == "Choose Colors (2)!!!":
+                layout.children[1].children[0].text = "Choose Colors (1)!!!"
+                
             dropDown.disabled = True
             dropDownButton.disabled = True
-            
+        
         def hide_block(dt):
             _ = layoutPlayer.children[2]
             layoutPlayer.remove_widget(_)
             Clock.schedule_once(lambda dt: layoutPlayer.add_widget(_), 0.5)
             layoutPlayer.children[1].disabled = True
-            layout.children[1].children[0].disabled = False
-            
+            layout.children[1].children[1].disabled = False
+            layout.children[1].children[2].disabled = False
+            layout.children[1].children[2].text = 'Show Prizes'
+            layout.children[1].children[0].text = layout.children[0 if player == 1 else 2].children[0].text + " May elect to swap the boxes!!!"
+             
         layoutPlayer=FloatLayout()
         dropDown = DropDown()
         for colors in COLORS:
@@ -87,8 +109,8 @@ class BlackBoxApp(App):
         dropDownButton.disabled = True
         layoutPlayer.add_widget(dropDownButton)
         
-        layoutPlayer.add_widget(Button(text=f"{self.carrot[player-1]}",size_hint=(.3, .05),
-                pos_hint={'x':.35, 'y':.6}, color=(0,0,0), background_color=(255,255,255)))
+        layoutPlayer.add_widget(Button(text=f"{self.carrot[player-1]}",size_hint=(.5, .4),
+                pos_hint={'x':.25, 'y':.4}, color=(0, 0, 0), font_size="20sp", background_color=(255,116,0)))
         layoutPlayer.add_widget(Button(text=f"Player {player}'s Box" ,size_hint=(.5, .4),
                 pos_hint={'x':.25, 'y':.4}, background_color=color, color=(255,255,255)))
         
@@ -106,29 +128,57 @@ class BlackBoxApp(App):
     def game_state(self, layout):
         
         def set_start(dt):
-            self.gameState = 'Started'
-            randomNum = random.choice([0,2,0,2,0,2,0,2,0,2])
-            print(randomNum)
-            layoutGameManager.children[1].disabled = True
-            print(layout.children[randomNum].children[0])
-            layout.children[randomNum].children[1].disabled = False
+            
+            if dt.text == "Show Prizes":
+                layoutGameManager.children[1].disabled = True
+                dt.disabled = True
+                p1Box = [val for val in layout.children[0].children if "'s" in val.text][0]
+                p2Box = [val for val in layout.children[2].children if "'s" in val.text][0]
+                p1Carrot = [val.text for val in layout.children[0].children if val.text == "" or val.text == CARROT][0]
+                p1Name = [val.text for val in layout.children[0].children if val.text == p1Box.text[0: p1Box.text.index("'s")]][0]
+                p2Name = [val.text for val in layout.children[2].children if val.text == p2Box.text[0: p2Box.text.index("'s")]][0]
+                layout.children[0].remove_widget(p1Box)
+                layout.children[2].remove_widget(p2Box)
+                layoutGameManager.children[0].text = p1Name + " Wins!!!!!" if p1Carrot == CARROT else p2Name + " Wins!!!!!"
+                layoutGameManager.children[0].text += '\n\nThank you for playing!!!!!'
+            else:
+                self.gameState = 'Started'
+                randomNum = random.choice([0,2,0,2,0,2,0,2,0,2])
+                layoutGameManager.children[0].text = layout.children[randomNum].children[0].text + ' Click the check box below to reveal your prize, once the other player has looked away.'
+                layout.children[randomNum].children[1].disabled = False
+            layoutGameManager.children[2].disabled = True
         
         def swap_boxes(dt):
-            player1Box = layout.children[0].children[1]
+            dt.disabled = True
+            layoutGameManager.children[0].text = 'Boxes swapped...Check Winner below!!!'
             
-            layout.children[2].children[2].text = player1Box.text
             
-            """ layout.children[2].children[2] = player1Box
-            layout.children[2].children[3] = player1Prize """
+            p1BoxName = [val.text for val in layout.children[0].children if "'s" in val.text][0]
+            p2BoxName = [val.text for val in layout.children[2].children if "'s" in val.text][0]
+            p1Name = [val.text for val in layout.children[0].children if val.text == p1BoxName[0: p1BoxName.index("'s")]][0]
+            p2Name = [val.text for val in layout.children[2].children if val.text == p2BoxName[0: p2BoxName.index("'s")]][0]
+            
+            p1Box = [val for val in layout.children[0].children if "'s" in val.text][0]
+            p1Box.text = p2Name + "'s New Box"
+            p2Box = [val for val in layout.children[2].children if "'s" in val.text][0]
+            p2Box.text = p1Name + "'s New Box"
+            
+            p1Label = [val for val in layout.children[0].children if val.text == p1Name][0]
+            p2Label = [val for val in layout.children[2].children if val.text == p2Name][0]
+            p1Label.text = p2Name
+            p2Label.text = p1Name
+            
+            self.gameState = 'Swap'
             
         layoutGameManager = FloatLayout(size_hint_max_x=300)
         swapButton = Button(text="Swap", size_hint=(1, .1), pos_hint={'x': .1, 'y': .05}, on_press=swap_boxes)
         restartButton = Button(text='Play', size_hint=(.5, .1), pos_hint={'x': .3, 'y': .5}, on_press=set_start)
         layoutGameManager.add_widget(restartButton)
         layoutGameManager.add_widget(swapButton)
+        layoutGameManager.add_widget(Label(text="Enter names below!!!", size_hint=(.5, .5), pos_hint={'x': .2, 'y': .5}))
         if self.gameState != 'Swap':
-            layoutGameManager.children[0].disabled = True
             layoutGameManager.children[1].disabled = True
+            layoutGameManager.children[2].disabled = True
             
         return layoutGameManager
     
@@ -136,12 +186,12 @@ class BlackBoxApp(App):
         self.gameState = "Play"
         self.carrot = []
         if random.randint(0,100) % 2 == 0:
-            self.carrot.append('Carrot') 
+            self.carrot.append(CARROT) 
         else:
             self.carrot.append('') 
         
         if self.carrot[0] == '':
-            self.carrot.append('Carrot') 
+            self.carrot.append(CARROT) 
         else:
             self.carrot.append('')
         random.shuffle(self.carrot) 
@@ -150,7 +200,8 @@ class BlackBoxApp(App):
         layout.add_widget(self.game_state(layout))
         layout.add_widget(self.get_player_block(2, (255,255,255), layout))
         layout.children[0].children[0].disabled = True
-        layout.children[2].children[0].disabled = True  
+        layout.children[2].children[0].disabled = True
+          
         """ layout.add_widget(Player(dx=250, dy=350, color=(255,0,0), name="Player 1"))
         layout.add_widget(Player(dx=950, dy=350, color=(0,0,255), name="Player 2")) """
         return layout

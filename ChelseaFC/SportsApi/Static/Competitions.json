@@ -1,0 +1,28 @@
+{
+	"query": {
+		"apikey": "85c23410-5146-11ed-9047-d9c68d49006d",
+		"country_id": "42"
+	},
+	"data": {
+		"236": {
+			"league_id": 237,
+			"country_id": 42,
+			"name": "Premier League"
+		},
+		"248": {
+			"league_id": 249,
+			"country_id": 42,
+			"name": "FA Cup"
+		},
+		"249": {
+			"league_id": 250,
+			"country_id": 42,
+			"name": "FA Community Shield"
+		},
+		"250": {
+			"league_id": 251,
+			"country_id": 42,
+			"name": "EFL Cup"
+		}
+	}
+}
