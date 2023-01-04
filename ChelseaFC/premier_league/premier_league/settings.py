@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
+    'backend_api'
 ]
 
 MIDDLEWARE = [
@@ -78,9 +79,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'Chelsea Dashboard',
-        'USER': 'dfunani',
+        'USER': 'delalifunani',
         'PASSWORD': 'Taste@81',
-        'HOST': '127.0.0.1',
+        'HOST': 'localhost',
         'PORT': '5432',
     }
 }

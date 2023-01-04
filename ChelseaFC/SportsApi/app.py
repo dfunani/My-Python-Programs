@@ -59,7 +59,7 @@ def Update_Matches(obj: dict, season, standing):
     res = {}
     for match in obj:
         key = match['home_team']['short_code'] + \
-            match['home_team']['short_code']
+            match['away_team']['short_code']
         home_team = match['home_team']['team_id']
         away_team = match['away_team']['team_id']
         if not home_team in res:
@@ -71,9 +71,10 @@ def Update_Matches(obj: dict, season, standing):
     for id in res:
         pos = list(filter(lambda x: str(x['team_id']) == str(id), standing))
         if pos:
-            Club().Update(id, res[id], season, pos[0])
+            Club().Update(id, json.dumps(res[id]), json.dumps(
+                season), json.dumps(pos[0]))
         else:
-            Club().Update(id, res[id], season)
+            Club().Update(id, json.dumps(res[id]), json.dumps(season))
 
 
 def Delete_Teams(obj: list):

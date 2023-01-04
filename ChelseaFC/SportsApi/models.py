@@ -48,7 +48,7 @@ class Club(base):
         with Session(engine) as session:
             if matches:
                 session.execute(update(Club).where(
-                    Club.team_id == id).values(matches=matches, season=season, league_id=season['league_id']))
+                    Club.team_id == id).values(matches=matches, season=season))
             if standing:
                 session.execute(update(Club).where(
                     Club.team_id == id).values(standing=standing))
