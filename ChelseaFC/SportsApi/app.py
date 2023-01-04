@@ -9,11 +9,24 @@ def Main():
     apiKey = config('apikey')
     apiParams = (("country_id", "42"), )
     teamsApiEndpoint = 'https://app.sportdataapi.com/api/v1/soccer/teams'
-    seasonApiEndpoint = 'https://app.sportdataapi.com/api/v1/soccer/teams'
+    seasonApiEndpoint = 'https://app.sportdataapi.com/api/v1/soccer/seasons'
     matchesApiEndpoint = 'https://app.sportdataapi.com/api/v1/soccer/teams'
     jsonFilename = "matches"
 
-    
+    # Checking existing teams - standard is 20 teams
+    current_clubs = Club().FetchAll()
+    print(f"List of existing teams {current_clubs}")
+
+    # Check what the current season is
+    seasons = GetData_ByAPI(
+        seasonApiEndpoint, apiKey, (("league_id", "237"),))
+    current_season = list(
+        filter(lambda x: x['is_current'] == 1, seasons['result']['data']))[0]
+
+    exit(
+        f"Completed updating the database with Sports Api Data for {current_season['name']}")
+
+
 def StoreData_DB(objs: list) -> dict:
     for obj in objs:
         club = Club(
