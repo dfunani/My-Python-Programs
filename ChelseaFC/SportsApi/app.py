@@ -10,6 +10,7 @@ def Main():
     teamsApiEndpoint = 'https://app.sportdataapi.com/api/v1/soccer/teams/'
     seasonApiEndpoint = 'https://app.sportdataapi.com/api/v1/soccer/seasons'
     matchesApiEndpoint = 'https://app.sportdataapi.com/api/v1/soccer/matches'
+    standingsApiEndpoint = 'https://app.sportdataapi.com/api/v1/soccer/standings'
     jsonFilename = "matches"
 
     # Checking existing teams - standard is 20 teams
@@ -42,13 +43,44 @@ def Main():
             res = GetData_ByAPI(teamsApiEndpoint + str(item), apiKey)
             if res['result']['data']:
                 StoreData_DB(res['result']['data'])
-
+                print(f"{res['result']['data']['team_id']} has been added")
     if toBeDeleted:
         Delete_Teams(toBeDeleted)
 
-    Update_Matches(matches)
+    standings = GetData_ByAPI(standingsApiEndpoint,
+                              apiKey, (("season_id", current_season['season_id']),))
+    Update_Matches(matches['result']['data'], current_season,
+                   standings['result']['data']['standings'])
     exit(
         f"Completed updating the database with Sports Api Data for the {current_season['name']} season")
+
+
+def Update_Matches(obj: dict, season, standing):
+    res = {}
+    for match in obj:
+        key = match['home_team']['short_code'] + \
+            match['home_team']['short_code']
+        home_team = match['home_team']['team_id']
+        away_team = match['away_team']['team_id']
+        if not home_team in res:
+            res[home_team] = {}
+        if not away_team in res:
+            res[away_team] = {}
+        res[home_team].update({key: match})
+        res[away_team].update({key: match})
+    for id in res:
+        pos = list(filter(lambda x: str(x['team_id']) == str(id), standing))
+        if pos:
+            Club().Update(id, res[id], season, pos[0])
+        else:
+            Club().Update(id, res[id], season)
+
+
+def Delete_Teams(obj: list):
+    for id in obj:
+        Club().Delete(id)
+        print(f"{id} has been deleted")
+    return {'status': 'success', 'code': "JSON_DUMP", 'result': obj}
 
 
 def Confirm_LatestTeams(obj: list):
@@ -56,6 +88,7 @@ def Confirm_LatestTeams(obj: list):
     for item in obj:
         result.add(item['home_team']['team_id'])
         result.add(item['away_team']['team_id'])
+
     return {'status': 'success', 'code': "JSON_DUMP", 'result': result}
 
 

@@ -1,5 +1,5 @@
 from sqlalchemy.schema import Column
-from sqlalchemy import create_engine, select
+from sqlalchemy import create_engine, select, delete, update
 from sqlalchemy.orm import declarative_base, Session
 from settings import dbConnectionString
 from sqlalchemy.types import String, Integer, JSON
@@ -26,7 +26,7 @@ class Club(base):
         255), default="https://cdn.britannica.com/44/344-004-494CC2E8/Flag-England.jpg")
     league_id = Column(Integer, default=237)
     season = Column(JSON, default={})
-    standing = Column(Integer, nullable=True)
+    standing = Column(JSON, nullable=True)
     matches = Column(JSON, default={})
 
     def Add(self):
@@ -39,9 +39,20 @@ class Club(base):
         return {'status': 'added', 'code': 'DB_200', 'result': {'id': id, 'team_id': team_id, 'name': name}}
 
     def Delete(self, id):
+        with Session(engine) as session:
+            session.execute(delete(Club).where(Club.team_id == id))
+            session.commit()
         return {'status': 'deleted', 'code': 'DB_200', 'result': id}
 
-    def Update(self, id):
+    def Update(self, id, matches, season, standing=None):
+        with Session(engine) as session:
+            if matches:
+                session.execute(update(Club).where(
+                    Club.team_id == id).values(matches=matches, season=season, league_id=season['league_id']))
+            if standing:
+                session.execute(update(Club).where(
+                    Club.team_id == id).values(standing=standing))
+            session.commit()
         return {'status': 'updated', 'code': 'DB_200', 'result': id}
 
     def FetchAll(self):
