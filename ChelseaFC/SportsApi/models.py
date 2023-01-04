@@ -26,7 +26,7 @@ class Club(base):
         255), default="https://cdn.britannica.com/44/344-004-494CC2E8/Flag-England.jpg")
     league_id = Column(Integer, default=237)
     season = Column(JSON, default={})
-    standing = Column(Integer, default={})
+    standing = Column(Integer, nullable=True)
     matches = Column(JSON, default={})
 
     def Add(self):
