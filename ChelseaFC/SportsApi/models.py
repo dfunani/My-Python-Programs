@@ -28,6 +28,8 @@ class Club(base):
     season = Column(JSON, default={})
     standing = Column(JSON, nullable=True)
     matches = Column(JSON, default={})
+    biography = Column(String(65651), default="Biography goes here")
+    trophies = Column(JSON, default={})
 
     def Add(self):
         id = self.id
@@ -59,3 +61,15 @@ class Club(base):
         with Session(engine) as session:
             result = session.scalars(select(Club.team_id)).all()
         return {'status': 'success', 'code': 'DB_200', 'result': result}
+
+    def FetchNames(self):
+        with Session(engine) as session:
+            result = session.scalars(select(Club.name)).all()
+        return {'status': 'success', 'code': 'DB_200', 'result': result}
+
+    def UpdateBio(self, bio, club):
+        with Session(engine) as session:
+            session.execute(update(Club).where(
+                Club.name == club).values(biography=bio))
+            session.commit()
+        return {'status': 'updated', 'code': 'DB_200', 'result': club}

@@ -25,6 +25,9 @@ class Clubs(models.Model):
     standing = models.JSONField(blank=True, null=True)
     # This field type is a guess.
     matches = models.JSONField(blank=True, null=True)
+    biography = models.CharField(max_length=65651, blank=True, null=True)
+    # This field type is a guess.
+    trophies = models.JSONField(blank=True, null=True)
 
     class Meta:
         managed = False

@@ -1,6 +1,6 @@
 from rest_framework.views import APIView
 from .models import Clubs
-from .serializers import clubSerializer, matchSerializer
+from .serializers import clubSerializer, matchSerializer, standingsSerializer
 from rest_framework.response import Response
 from django.http import Http404
 import datetime
@@ -15,7 +15,28 @@ class ClubsViewSet(APIView):
         serializer = clubSerializer(clubs, many=True)
         return Response(serializer.data)
 
+class standingsViewSet(APIView):
+    queryset = Clubs.objects.all()
 
+    def get(self, request, format=None):
+        clubs = Clubs.objects.all()
+        serializer = standingsSerializer(clubs, many=True)
+        return Response(serializer.data)
+
+class clubStandingsView(APIView):
+    queryset = Clubs.objects.all()
+
+    def get_object(self, pk):
+        try:
+            return Clubs.objects.get(pk=pk)
+        except Clubs.DoesNotExist:
+            raise Http404
+
+    def get(self, request, pk, format=None):
+        club = self.get_object(pk)
+        serializer = standingsSerializer(club)
+        return Response(serializer.data)
+    
 class ClubResultsView(APIView):
     queryset = Clubs.objects.all()
 

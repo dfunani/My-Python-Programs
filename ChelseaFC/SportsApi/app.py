@@ -3,6 +3,7 @@ import json
 from decouple import config
 from models import Club
 import sys
+from wiki_scraper import Wikipedia
 
 
 def Main():
@@ -100,6 +101,8 @@ def StoreData_DB(objs: dict) -> dict:
         short_code=objs['short_code'],
         common_name=objs['common_name'],
         logo=objs['logo'],
+        biography=Wikipedia().GetBio(objs['name'])['result'],
+        trophies=json.dumps(Wikipedia().GetTrophies(objs['name'])['result']),
     )
     club.Add()
     return {'status': 'success', 'code': "JSON_DUMP", 'result': objs}

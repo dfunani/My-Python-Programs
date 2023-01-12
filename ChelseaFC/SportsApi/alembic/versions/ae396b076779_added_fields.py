@@ -1,8 +1,8 @@
-"""Added primary fields
+"""added fields
 
-Revision ID: de065e234f75
+Revision ID: ae396b076779
 Revises: 
-Create Date: 2023-01-04 10:06:26.251500
+Create Date: 2023-01-10 16:04:19.002726
 
 """
 from alembic import op
@@ -10,7 +10,7 @@ import sqlalchemy as sa
 
 
 # revision identifiers, used by Alembic.
-revision = 'de065e234f75'
+revision = 'ae396b076779'
 down_revision = None
 branch_labels = None
 depends_on = None
@@ -32,8 +32,10 @@ def upgrade() -> None:
     sa.Column('country_flag', sa.String(length=255), nullable=True),
     sa.Column('league_id', sa.Integer(), nullable=True),
     sa.Column('season', sa.JSON(), nullable=True),
-    sa.Column('standing', sa.Integer(), nullable=True),
+    sa.Column('standing', sa.JSON(), nullable=True),
     sa.Column('matches', sa.JSON(), nullable=True),
+    sa.Column('biography', sa.String(length=65651), nullable=True),
+    sa.Column('trophies', sa.JSON(), nullable=True),
     sa.PrimaryKeyConstraint('id')
     )
     # ### end Alembic commands ###
