@@ -1,0 +1,10 @@
+.Container
+{
+	display: flex;
+	justify-content: flex-start;
+	border: 1px rgb(68, 0, 255) solid;
+}
+
+.Name{
+	margin-inline: auto;
+}
