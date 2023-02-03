@@ -1,0 +1,28 @@
+.Container
+{
+	overflow-y: scroll;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	width: 15%;
+	animation-name: navbar;
+	animation-duration: 0.25s;
+}
+
+@keyframes navbar {
+  0% {width: 0%;}
+  
+  /* 25% {width: 3.75%;}
+  
+  50% {width: 7.5%}
+  
+  75% {width: 11.25%} */
+  
+  100% {width: 15%}
+}
+.Container > *
+{
+	padding-block: 10px;
+}
