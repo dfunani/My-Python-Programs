@@ -1,6 +1,7 @@
-html, body, main
+html, body
 {
 	height: auto;
 	width: auto;
-	background-color: rgb(102, 97, 97);
+	background-repeat: repeat;
+	background-size: fill;
 }

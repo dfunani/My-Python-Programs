@@ -1,0 +1,37 @@
+.Container
+{
+	margin-left: 20em;
+	margin-top: 2%;
+	justify-self: center;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 60%;
+}
+
+.Image{
+	opacity: 0.02;
+}
+
+.Bio
+{
+	min-height: 80vh;
+	width: 60%;
+	height: 60%;
+	transform: translateX(-250px);
+	min-width: 27em;
+	overflow-y: scroll;
+	margin-right: -200px;
+}
+.Bio > *
+{
+	color: black;
+}
+
+.Label
+{
+	display: flex;
+	justify-content:center;
+	align-items: center;
+}
+

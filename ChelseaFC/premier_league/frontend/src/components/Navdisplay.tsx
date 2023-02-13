@@ -12,12 +12,7 @@ export default function Navdisplay({ clubs, setClub, setClick }: props) {
     let res: any[] = [];
     clubs.forEach((element: any) => {
       res.push(
-        <Navteam
-          logo={element.logo}
-          name={element.name}
-          setClick={setClick}
-          setClub={setClub}
-        />
+        <Navteam club={element} setClick={setClick} setClub={setClub} />
       );
     });
     return res;

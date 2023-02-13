@@ -2,17 +2,23 @@ import Head from "next/head";
 import styles from "@/styles/Home.module.css";
 import { useState, useEffect } from "react";
 import Navbar from "@/components/Navbar";
+import { data } from "@/components/Data";
+import Image from "next/image";
 
 export default function Home() {
   const [clubs, setClubs] = useState([]);
-  const [club, setClub] = useState("");
+  const [club, setClub] = useState(data);
+  const [epl, fa, comm, efl]: [string, string, string, string] = [
+    "https://upload.wikimedia.org/wikipedia/en/thumb/f/f0/Premiership_trophy.jpg/170px-Premiership_trophy.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/The_FA_Cup_Trophy_in_2008.jpg/220px-The_FA_Cup_Trophy_in_2008.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/FA_Community_Shield.JPG/220px-FA_Community_Shield.JPG",
+    "https://upload.wikimedia.org/wikipedia/commons/5/57/MilkCup.png",
+  ];
+  const [clicked, setClicked] = useState(false);
   function GetClubs_ByAPI() {
     fetch("http://127.0.0.1:8000/api-data/clubs/")
       .then((res) => res.json())
-      .then((result) => {
-        setClubs(result);
-        console.log(result);
-      });
+      .then((result) => setClubs(result));
   }
 
   useEffect(() => {
@@ -27,8 +33,74 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <Navbar clubs={clubs} setClub={setClub} />
-        {club}
+        <nav className={`${styles.Nav} navbar navbar-dark bg-dark`}>
+          <div className="container-fluid">
+            <button
+              className="navbar-toggler"
+              type="button"
+              style={{ height: "50px" }}
+              aria-label="Toggle navigation"
+              onClick={() => setClicked((prev: boolean) => !prev)}
+            >
+              <span className="navbar-toggler-icon"></span>
+            </button>
+            <div>{club.name}</div>
+            <span className={styles.Home}>
+              <Image
+                src={data.logo}
+                alt="Picture of the author"
+                width={120}
+                height={60}
+                priority
+                onClick={() => setClub(data)}
+              />
+            </span>
+          </div>
+        </nav>
+        <div className={`${styles.Box}`}>
+          <Navbar
+            clubs={clubs}
+            setClub={setClub}
+            clicked={clicked}
+            setClicked={setClicked}
+            club={club}
+          />
+          <div className={styles.Cabinet1}>
+            <div>
+              <Image src={comm} width="100" height="150" alt="..." />
+              <div className={styles.Label}>
+                <div>{club.trophies.comShield}</div>
+                <div>Community Shield</div>
+              </div>
+            </div>
+
+            <div>
+              <Image src={efl} width="100" height="150" alt="..." />
+              <div className={styles.Label}>
+                <div>{club.trophies.leagueCup}</div>
+                <div>League Cup</div>
+              </div>
+            </div>
+          </div>
+
+          <div className={styles.Cabinet}>
+            <div>
+              <Image src={epl} width="100" height="150" alt="..." />
+              <div className={styles.Label}>
+                <div>{club.trophies.epl}</div>
+                <div>Premier League</div>
+              </div>
+            </div>
+
+            <div>
+              <Image src={fa} width="100" height="150" alt="..." />
+              <div className={styles.Label}>
+                <div>{club.trophies.faCup}</div>
+                <div>FA Cup</div>
+              </div>
+            </div>
+          </div>
+        </div>
       </main>
     </>
   );

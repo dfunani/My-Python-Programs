@@ -9,6 +9,7 @@ from django.db import models
 
 
 class Clubs(models.Model):
+    id = models.IntegerField(primary_key=True, blank=True, null=False)
     team_id = models.IntegerField(blank=True, null=True)
     name = models.CharField(max_length=30, blank=True, null=True)
     short_code = models.CharField(max_length=5, blank=True, null=True)

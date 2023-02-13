@@ -1,19 +1,18 @@
 type props = {
-  logo: string;
-  name: string;
   setClub: any;
   setClick: any;
+  club: any;
 };
 
-export default function Navteam({ logo, name, setClub, setClick }: props) {
+export default function Navteam({ club, setClub, setClick }: props) {
   return (
     <>
       <div>
         <img
-          src={logo}
-          alt={name}
+          src={club.logo}
+          alt={club.name}
           onClick={() => {
-            setClub(name);
+            setClub(club);
             setClick((prev: any) => !prev);
           }}
         />
