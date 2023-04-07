@@ -12,11 +12,11 @@ import random
 '''
 
 Start, End = (100, 999)
-Guesses = 10
+Guesses: int = 10
 
 
 def main():
-    gameState = "yes"
+    gameState: str = "yes"
 
     print('''I am thinking of a 3-digit number. Try to guess what it is.
 
@@ -28,13 +28,13 @@ def main():
 
   ''')
     while gameState[0] == "y":
-        randomNum = RandomNumberGenerator(Start, End)
+        randomNum: int = RandomNumberGenerator(Start, End)
 
         print(
             f'''I have thought up a number, and You have {Guesses} guess(s) to get it.''')
 
         for index, value in enumerate(range(Guesses), 1):
-            guess = pyip.inputNum((f"Guess #{index}\n"), min=Start, max=End)
+            guess: int = pyip.inputNum((f"Guess #{index}\n"), min=Start, max=End)
 
             if guess == randomNum:
                 print("You got it!")
@@ -46,22 +46,32 @@ def main():
         gameState = pyip.inputYesNo("Do you want to play again?\n").lower()
 
 
-def RandomNumberGenerator(a: int, b: int):
+def RandomNumberGenerator(a: int, b: int) -> int:
+    """Generates a random number as per random class
+
+    Args:
+        a (int): min
+        b (int): max
+
+    Returns:
+        _type_: int
+    """
     return random.randint(a, max(a, b))
 
 
-def CheckClues(userGuess: int, randomNumber: int):
-    clues: int = []
+def CheckClues(userGuess: int, randomNumber: int) -> list[str]:
+    clues: int = ["", "", ""]
+    count: int = 0
     for guessValue, randomValue in zip(str(userGuess), str(randomNumber)):
         if guessValue == randomValue:
-            clues.append("Fermi")
+            clues[count] = "Fermi"
         elif guessValue in str(randomNumber):
-            clues.append("Pico")
+            clues[count] = "Pico"
+        count += 1
 
-    if not clues:
-        clues.append('Bagels')
+    if not any(clues):
+        clues = ['Bagels']
 
-    clues = sorted(clues)
     return clues
 
 
